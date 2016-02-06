@@ -33,3 +33,22 @@ check
 	npm install hexo-server --save
 	npm generate
 	npm server
+
+#### Install Node.js with comply
+
+see `http://andyfelong.com/2015/11/node-js-v4-1-0-on-raspberry-pi-2/`  
+
+> Need gcc/g++ version 4.8 or better, need to upgrade Wheezy or use Jesse  
+
+##### Build Node.js on Rasbian Jesse
+
+check `https://nodejs.org/en/download/`, download `Source Code`  
+
+	wget https://nodejs.org/dist/v4.2.6/node-v4.2.6.tar.gz
+	tar -xzf node-v4.2.6.tar.gz
+	cd node-v4.2.6
+	./configure
+	make
+	sudo make install
+
+
