@@ -1,4 +1,4 @@
-#### Install Node.js v4.* without comply
+#### Install Node.js v4.* without compile
 
 see `http://blog.wia.io/installing-node-js-v4-0-0-on-a-raspberry-pi/`  
 
@@ -34,7 +34,7 @@ check
 	npm generate
 	npm server
 
-#### Install Node.js with comply
+#### Install Node.js with compile
 
 see `http://andyfelong.com/2015/11/node-js-v4-1-0-on-raspberry-pi-2/`  
 
