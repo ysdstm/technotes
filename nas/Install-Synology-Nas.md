@@ -33,3 +33,27 @@ NAS系统是保存在硬盘当中的，U盘只起到引导的作用。
 
 后来再次按照后记测试了一下，可以使用，重启进入第3项，可以自动更新。  2016-02-09 00:25  
 网盘内容有必要下载下来保存一下，百度还是会抽风的。  
+
+#### 登录
+
+用户名：root，密码：与web登录密码一致  
+`su: must be suid to work properly`  
+chmod 4755 /bin/busybox
+
+#### 修改ssh端口
+
+参考`http://www.paoto.com/2014/05/群晖synologynas的安全设置之sshd.html`
+
+#### GLPI
+
+缺省 登录名/密码是：  
+
+管理员帐号是 glpi/glpi  
+技术员帐号是 tech/tech  
+普通帐号是 normal/normal  
+只能发布的帐号是 post-only/postonly  
+您可以删除或修改这些帐号和初始数据。  
+
+#### MariaDB
+
+初始密码为空  
