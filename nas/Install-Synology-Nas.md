@@ -54,6 +54,14 @@ chmod 4755 /bin/busybox
 只能发布的帐号是 post-only/postonly  
 您可以删除或修改这些帐号和初始数据。  
 
+##### GLPI翻译
+
+有些中文翻译很别扭，需要修改，但是只修改locale目录下的zh_CN.po不起作用  
+后来了解到po和mo可以相互转换  
+先反编译mo到po，`msgunfmt zh_CN.mo -o test.po`，编辑test.po  
+在编译po到mo，`msgfmt test.po -o test.mo`  
+编译软件见目录  
+
 #### MariaDB
 
 初始密码为空  
