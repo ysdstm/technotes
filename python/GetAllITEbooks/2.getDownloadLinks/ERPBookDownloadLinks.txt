@@ -1,0 +1,105 @@
+http://www.allitebooks.com/sap-erp-financial-accounting-and-controlling/
+http://file.allitebooks.com/20150710/SAP ERP Financial Accounting and Controlling- Configuration and Use Management.pdf" target="_blank">
+http://www.allitebooks.com/force-com-development-blueprints/
+http://file.allitebooks.com/20150612/Force.com Development Blueprints.pdf" target="_blank">
+http://www.allitebooks.com/getting-started-with-soql/
+http://file.allitebooks.com/20150612/Getting Started with SOQL.pdf" target="_blank">
+http://www.allitebooks.com/learning-ms-dynamics-ax-2012-programming/
+http://file.allitebooks.com/20150612/Learning MS Dynamics AX 2012 Programming.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-ax-2012-r2-services/
+http://file.allitebooks.com/20150612/Microsoft Dynamics AX 2012 R2 Services.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-crm-customization-essentials/
+http://file.allitebooks.com/20150612/Microsoft Dynamics CRM Customization Essentials.pdf" target="_blank">
+http://www.allitebooks.com/practical-salesforce-com-development-without-code/
+http://file.allitebooks.com/20150612/Practical Salesforce.com Development Without Code.pdf" target="_blank">
+http://www.allitebooks.com/sap-abap/
+http://file.allitebooks.com/20150612/SAP ABAP.pdf" target="_blank">
+http://www.allitebooks.com/transportation-management-with-sap-tm-9/
+http://file.allitebooks.com/20150612/Transportation Management with SAP TM 9.pdf" target="_blank">
+http://www.allitebooks.com/building-dashboards-with-microsoft-dynamics-gp-2013-and-excel-2013/
+http://file.allitebooks.com/20150612/Building Dashboards with Microsoft Dynamics GP 2013 and Excel 2013.pdf" target="_blank">
+http://www.allitebooks.com/civicrm-cookbook/
+http://file.allitebooks.com/20150612/CiviCRM Cookbook.pdf" target="_blank">
+http://www.allitebooks.com/development-with-the-force-com-platform-3rd-edition/
+http://file.allitebooks.com/20150612/Development with the Force.com Platform, 3rd Edition.pdf" target="_blank">
+http://www.allitebooks.com/extending-microsoft-dynamics-ax-2012-cookbook/
+http://file.allitebooks.com/20150612/Extending Microsoft Dynamics AX 2012 Cookbook.pdf" target="_blank">
+http://www.allitebooks.com/force-com-tips-and-tricks/
+http://file.allitebooks.com/20150612/Force.com Tips and Tricks.pdf" target="_blank">
+http://www.allitebooks.com/getting-started-with-dynamics-nav-2013-application-development/
+http://file.allitebooks.com/20150612/Getting Started with Dynamics NAV 2013 Application Development.pdf" target="_blank">
+http://www.allitebooks.com/implementing-microsoft-dynamics-ax-2012-with-sure-step-2012/
+http://file.allitebooks.com/20150612/Implementing Microsoft Dynamics AX 2012 with Sure Step 2012.pdf" target="_blank">
+http://www.allitebooks.com/implementing-microsoft-dynamics-nav-2013/
+http://file.allitebooks.com/20150612/Implementing Microsoft Dynamics NAV 2013.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-crm-2011-applications-mb2-868-certification-guide/
+http://file.allitebooks.com/20150612/Microsoft Dynamics CRM 2011 Applications (MB2-868) Certification Guide.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-crm-2011-cookbook/
+http://file.allitebooks.com/20150612/Microsoft Dynamics CRM 2011 Cookbook.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-crm-2011-reporting/
+http://file.allitebooks.com/20150612/Microsoft Dynamics CRM 2011 Reporting.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-crm-2011-scripting-cookbook/
+http://file.allitebooks.com/20150612/Microsoft Dynamics CRM 2011 Scripting Cookbook.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-gp-2013-cookbook/
+http://file.allitebooks.com/20150612/Microsoft Dynamics GP 2013 Cookbook.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-nav-financial-management/
+http://file.allitebooks.com/20150612/Microsoft Dynamics NAV Financial Management.pdf" target="_blank">
+http://www.allitebooks.com/salesforce-crm-admin-cookbook/
+http://file.allitebooks.com/20150612/Salesforce CRM Admin Cookbook.pdf" target="_blank">
+http://www.allitebooks.com/visualforce-developers-guide/
+http://file.allitebooks.com/20150612/Visualforce Developer-s Guide.pdf" target="_blank">
+http://www.allitebooks.com/developing-microsoft-dynamics-gp-business-applications/
+http://file.allitebooks.com/20150612/Developing Microsoft Dynamics GP Business Applications.pdf" target="_blank">
+http://www.allitebooks.com/inside-microsoft-dynamics-ax-2012/
+http://file.allitebooks.com/20150612/Inside Microsoft Dynamics AX 2012.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-ax-2012-development-cookbook/
+http://file.allitebooks.com/20150612/Microsoft Dynamics AX 2012 Development Cookbook.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-ax-2012-services/
+http://file.allitebooks.com/20150612/Microsoft Dynamics AX 2012 Services.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-crm-2011/
+http://file.allitebooks.com/20150612/Microsoft Dynamics CRM 2011.pdf" target="_blank">
+http://www.allitebooks.com/sams-teach-yourself-microsoft-dynamics-crm-2011-in-24-hours/
+http://file.allitebooks.com/20150612/Sams Teach Yourself Microsoft Dynamics Crm 2011 in 24 Hours.pdf" target="_blank">
+http://www.allitebooks.com/sap-abap-advanced-cookbook/
+http://file.allitebooks.com/20150612/SAP ABAP Advanced Cookbook.pdf" target="_blank">
+http://www.allitebooks.com/building-on-sugarcrm/
+http://file.allitebooks.com/20150612/Building on SugarCRM.pdf" target="_blank">
+http://www.allitebooks.com/crm-fundamentals/
+http://file.allitebooks.com/20150612/CRM Fundamentals.pdf" target="_blank">
+http://www.allitebooks.com/development-with-the-force-com-platform-2nd-edition/
+http://file.allitebooks.com/20150612/Development with the Force.com Platform, 2nd Edition.pdf" target="_blank">
+http://www.allitebooks.com/mastering-sql-queries-for-sap-business-one/
+http://file.allitebooks.com/20150612/Mastering SQL Queries for SAP Business One.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-ax-2009-administration/
+http://file.allitebooks.com/20150612/Microsoft Dynamics AX 2009 Administration.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-crm-2011-administration-bible/
+http://file.allitebooks.com/20150612/Microsoft Dynamics CRM 2011 Administration Bible.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-crm-2011-step-by-step/
+http://file.allitebooks.com/20150612/Microsoft Dynamics CRM 2011 Step by Step.pdf" target="_blank">
+http://www.allitebooks.com/oracle-siebel-crm-8-developers-handbook/
+http://file.allitebooks.com/20150612/Oracle Siebel CRM 8 Developer-s Handbook.pdf" target="_blank">
+http://www.allitebooks.com/sams-teach-yourself-sap-in-24-hours-4th-edition/
+http://file.allitebooks.com/20150612/Sams Teach Yourself SAP in 24 Hours, 4th Edition.pdf" target="_blank">
+http://www.allitebooks.com/sap-businessobjects-dashboards-4-0-cookbook/
+http://file.allitebooks.com/20150612/SAP BusinessObjects Dashboards 4.0 Cookbook.pdf" target="_blank">
+http://www.allitebooks.com/using-civicrm/
+http://file.allitebooks.com/20150612/Using CiviCRM.pdf" target="_blank">
+http://www.allitebooks.com/apache-ofbiz-cookbook/
+http://file.allitebooks.com/20150612/Apache OfBiz Cookbook.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-nav-2009-programming-cookbook/
+http://file.allitebooks.com/20150612/Microsoft Dynamics NAV 2009 Programming Cookbook.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-nav-administration/
+http://file.allitebooks.com/20150612/Microsoft Dynamics NAV Administration.pdf" target="_blank">
+http://www.allitebooks.com/microsoft-dynamics-crm-4-integration-unleashed/
+http://file.allitebooks.com/20150612/Microsoft Dynamics CRM 4 Integration Unleashed.pdf" target="_blank">
+http://www.allitebooks.com/programming-microsoft-dynamics-nav-2009/
+http://file.allitebooks.com/20150612/Programming Microsoft Dynamics NAV 2009.pdf" target="_blank">
+http://www.allitebooks.com/sap-implementation-unleashed/
+http://file.allitebooks.com/20150612/SAP Implementation Unleashed.pdf" target="_blank">
+http://www.allitebooks.com/the-definitive-guide-to-sugarcrm/
+http://file.allitebooks.com/20150612/The Definitive Guide to SugarCRM.pdf" target="_blank">
+http://www.allitebooks.com/sap-grc-for-dummies/
+http://file.allitebooks.com/20150612/SAP GRC For Dummies.pdf" target="_blank">
+http://www.allitebooks.com/sugarcrm-developers-manual-customize-and-extend-sugarcrm/
+http://file.allitebooks.com/20150612/SugarCRM Developer-s Manual Customize and extend SugarCRM.pdf" target="_blank">
+http://www.allitebooks.com/implementing-sugarcrm/http://file.allitebooks.com/20150612/Implementing SugarCRM.pdf" target="_blank">

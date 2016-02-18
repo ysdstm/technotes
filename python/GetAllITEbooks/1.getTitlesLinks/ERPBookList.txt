@@ -1,0 +1,59 @@
+http://www.allitebooks.com/enterprise/erp-crm/page/1/
+http://www.allitebooks.com/sap-erp-financial-accounting-and-controlling/	SAP ERP Financial Accounting and Controlling
+http://www.allitebooks.com/force-com-development-blueprints/	Force.com Development Blueprints
+http://www.allitebooks.com/getting-started-with-soql/	Getting Started with SOQL
+http://www.allitebooks.com/learning-ms-dynamics-ax-2012-programming/	Learning MS Dynamics AX 2012 Programming
+http://www.allitebooks.com/microsoft-dynamics-ax-2012-r2-services/	Microsoft Dynamics AX 2012 R2 Services
+http://www.allitebooks.com/microsoft-dynamics-crm-customization-essentials/	Microsoft Dynamics CRM Customization Essentials
+http://www.allitebooks.com/practical-salesforce-com-development-without-code/	Practical Salesforce.com Development Without Code
+http://www.allitebooks.com/sap-abap/	SAP ABAP
+http://www.allitebooks.com/transportation-management-with-sap-tm-9/	Transportation Management with SAP TM 9
+http://www.allitebooks.com/building-dashboards-with-microsoft-dynamics-gp-2013-and-excel-2013/	Building Dashboards with Microsoft Dynamics GP 2013 and Excel 2013
+http://www.allitebooks.com/enterprise/erp-crm/page/2/
+http://www.allitebooks.com/civicrm-cookbook/	CiviCRM Cookbook
+http://www.allitebooks.com/development-with-the-force-com-platform-3rd-edition/	Development with the Force.com Platform, 3rd Edition
+http://www.allitebooks.com/extending-microsoft-dynamics-ax-2012-cookbook/	Extending Microsoft Dynamics AX 2012 Cookbook
+http://www.allitebooks.com/force-com-tips-and-tricks/	Force.com Tips and Tricks
+http://www.allitebooks.com/getting-started-with-dynamics-nav-2013-application-development/	Getting Started with Dynamics NAV 2013 Application Development
+http://www.allitebooks.com/implementing-microsoft-dynamics-ax-2012-with-sure-step-2012/	Implementing Microsoft Dynamics AX 2012 with Sure Step 2012
+http://www.allitebooks.com/implementing-microsoft-dynamics-nav-2013/	Implementing Microsoft Dynamics NAV 2013
+http://www.allitebooks.com/microsoft-dynamics-crm-2011-applications-mb2-868-certification-guide/	Microsoft Dynamics CRM 2011 Applications (MB2-868) Certification Guide
+http://www.allitebooks.com/microsoft-dynamics-crm-2011-cookbook/	Microsoft Dynamics CRM 2011 Cookbook
+http://www.allitebooks.com/microsoft-dynamics-crm-2011-reporting/	Microsoft Dynamics CRM 2011 Reporting
+http://www.allitebooks.com/enterprise/erp-crm/page/3/
+http://www.allitebooks.com/microsoft-dynamics-crm-2011-scripting-cookbook/	Microsoft Dynamics CRM 2011 Scripting Cookbook
+http://www.allitebooks.com/microsoft-dynamics-gp-2013-cookbook/	Microsoft Dynamics GP 2013 Cookbook
+http://www.allitebooks.com/microsoft-dynamics-nav-financial-management/	Microsoft Dynamics NAV Financial Management
+http://www.allitebooks.com/salesforce-crm-admin-cookbook/	Salesforce CRM Admin Cookbook
+http://www.allitebooks.com/visualforce-developers-guide/	Visualforce Developer&#8217;s Guide
+http://www.allitebooks.com/developing-microsoft-dynamics-gp-business-applications/	Developing Microsoft Dynamics GP Business Applications
+http://www.allitebooks.com/inside-microsoft-dynamics-ax-2012/	Inside Microsoft Dynamics AX 2012
+http://www.allitebooks.com/microsoft-dynamics-ax-2012-development-cookbook/	Microsoft Dynamics AX 2012 Development Cookbook
+http://www.allitebooks.com/microsoft-dynamics-ax-2012-services/	Microsoft Dynamics AX 2012 Services
+http://www.allitebooks.com/microsoft-dynamics-crm-2011/	Microsoft Dynamics CRM 2011
+http://www.allitebooks.com/enterprise/erp-crm/page/4/
+http://www.allitebooks.com/sams-teach-yourself-microsoft-dynamics-crm-2011-in-24-hours/	Sams Teach Yourself Microsoft Dynamics Crm 2011 in 24 Hours
+http://www.allitebooks.com/sap-abap-advanced-cookbook/	SAP ABAP Advanced Cookbook
+http://www.allitebooks.com/building-on-sugarcrm/	Building on SugarCRM
+http://www.allitebooks.com/crm-fundamentals/	CRM Fundamentals
+http://www.allitebooks.com/development-with-the-force-com-platform-2nd-edition/	Development with the Force.com Platform, 2nd Edition
+http://www.allitebooks.com/mastering-sql-queries-for-sap-business-one/	Mastering SQL Queries for SAP Business One
+http://www.allitebooks.com/microsoft-dynamics-ax-2009-administration/	Microsoft Dynamics AX 2009 Administration
+http://www.allitebooks.com/microsoft-dynamics-crm-2011-administration-bible/	Microsoft Dynamics CRM 2011 Administration Bible
+http://www.allitebooks.com/microsoft-dynamics-crm-2011-step-by-step/	Microsoft Dynamics CRM 2011 Step by Step
+http://www.allitebooks.com/oracle-siebel-crm-8-developers-handbook/	Oracle Siebel CRM 8 Developer&#8217;s Handbook
+http://www.allitebooks.com/enterprise/erp-crm/page/5/
+http://www.allitebooks.com/sams-teach-yourself-sap-in-24-hours-4th-edition/	Sams Teach Yourself SAP in 24 Hours, 4th Edition
+http://www.allitebooks.com/sap-businessobjects-dashboards-4-0-cookbook/	SAP BusinessObjects Dashboards 4.0 Cookbook
+http://www.allitebooks.com/using-civicrm/	Using CiviCRM
+http://www.allitebooks.com/apache-ofbiz-cookbook/	Apache OfBiz Cookbook
+http://www.allitebooks.com/microsoft-dynamics-nav-2009-programming-cookbook/	Microsoft Dynamics NAV 2009 Programming Cookbook
+http://www.allitebooks.com/microsoft-dynamics-nav-administration/	Microsoft Dynamics NAV Administration
+http://www.allitebooks.com/microsoft-dynamics-crm-4-integration-unleashed/	Microsoft Dynamics CRM 4 Integration Unleashed
+http://www.allitebooks.com/programming-microsoft-dynamics-nav-2009/	Programming Microsoft Dynamics NAV 2009
+http://www.allitebooks.com/sap-implementation-unleashed/	SAP Implementation Unleashed
+http://www.allitebooks.com/the-definitive-guide-to-sugarcrm/	The Definitive Guide to SugarCRM
+http://www.allitebooks.com/enterprise/erp-crm/page/6/
+http://www.allitebooks.com/sap-grc-for-dummies/	SAP GRC For Dummies
+http://www.allitebooks.com/sugarcrm-developers-manual-customize-and-extend-sugarcrm/	SugarCRM Developer&#8217;s Manual: Customize and extend SugarCRM
+http://www.allitebooks.com/implementing-sugarcrm/	Implementing SugarCRM

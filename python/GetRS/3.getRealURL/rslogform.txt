@@ -1,0 +1,11 @@
+       <form name="userlogin" action="/member/index_do.php" method="POST">
+        <input type="hidden" name="fmdo" value="login" />
+        <input type="hidden" name="dopost" value="login" />
+        <input type="hidden" name="keeptime" value="604800" />
+        ??:
+        <input type="text" name="userid" size="8" class="ipt-txt" value="?˺Ż??ǳ?" onfocus="if(this.value=='?˺Ż??ǳ?'){this.value=''}" />
+        ??:
+        <input type="password" name="pwd" size="7" class="ipt-txt" />
+        
+         <button type="submit">??¼</button>
+       </form>

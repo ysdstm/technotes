@@ -1,0 +1,202 @@
+http://www.allitebooks.com/web-development/python/page/1/
+http://www.allitebooks.com/learning-flask-framework/	Learning Flask Framework
+http://www.allitebooks.com/django-by-example/	Django By Example
+http://www.allitebooks.com/python-crash-course/	Python Crash Course
+http://www.allitebooks.com/learning-python/	Learning Python
+http://www.allitebooks.com/arcgis-blueprints/	ArcGIS Blueprints
+http://www.allitebooks.com/spark-for-python-developers/	Spark for Python Developers
+http://www.allitebooks.com/wxpython-application-development-cookbook/	wxPython Application Development Cookbook
+http://www.allitebooks.com/python-3-object-oriented-programming/	Python 3 Object Oriented Programming
+http://www.allitebooks.com/python-for-data-science-for-dummies/	Python for Data Science For Dummies
+http://www.allitebooks.com/doing-math-with-python/	Doing Math With Python
+http://www.allitebooks.com/web-development/python/page/2/
+http://www.allitebooks.com/introduction-to-computing-using-python/	Introduction To Computing Using Python
+http://www.allitebooks.com/professional-python/	Professional Python
+http://www.allitebooks.com/python-for-secret-agents-second-edition/	Python for Secret Agents, Second Edition
+http://www.allitebooks.com/think-python-2nd-edition/	Think Python, 2nd Edition
+http://www.allitebooks.com/python-2-6-text-processing-beginners-guide/	Python 2.6 Text Processing: Beginners Guide
+http://www.allitebooks.com/python-data-analytics/	Python Data Analytics
+http://www.allitebooks.com/building-python-real-time-applications-with-storm/	Building Python Real-Time Applications with Storm
+http://www.allitebooks.com/fluent-python/	Fluent Python
+http://www.allitebooks.com/python-data-visualization-cookbook-second-edition/	Python Data Visualization Cookbook, Second Edition
+http://www.allitebooks.com/flask-blueprints/	Flask Blueprints
+http://www.allitebooks.com/web-development/python/page/3/
+http://www.allitebooks.com/tkinter-gui-application-development-blueprints/	Tkinter GUI Application Development Blueprints
+http://www.allitebooks.com/python-geospatial-analysis-cookbook/	Python Geospatial Analysis Cookbook
+http://www.allitebooks.com/python-gui-programming-cookbook/	Python GUI Programming Cookbook
+http://www.allitebooks.com/the-python-workbook/	The Python Workbook
+http://www.allitebooks.com/data-structures-and-algorithms-using-python/	Data Structures and Algorithms Using Python
+http://www.allitebooks.com/starting-out-with-python-2nd-edition/	Starting Out with Python, 2nd Edition
+http://www.allitebooks.com/high-performance-python/	High Performance Python
+http://www.allitebooks.com/fundamentals-of-python/	Fundamentals of Python
+http://www.allitebooks.com/beginning-python-games-development-second-edition/	Beginning Python Games Development, Second Edition
+http://www.allitebooks.com/a-primer-on-scientific-programming-with-python-4th-edition/	A Primer on Scientific Programming with Python, 4th edition
+http://www.allitebooks.com/web-development/python/page/4/
+http://www.allitebooks.com/python-playground/	Python Playground
+http://www.allitebooks.com/programming-robots-with-ros/	Programming Robots with ROS
+http://www.allitebooks.com/more-python-programming-for-the-absolute-beginner/	More Python Programming for the Absolute Beginner
+http://www.allitebooks.com/python-learn-python-programming-in-90-minutes-or-less/	Python: Learn Python Programming in 90 minutes or Less!
+http://www.allitebooks.com/programming-computer-programming-for-beginners-2-edition/	Programming: Computer Programming for Beginners, 2 edition
+http://www.allitebooks.com/introduction-to-computational-models-with-python/	Introduction to Computational Models with Python
+http://www.allitebooks.com/the-quick-python-book-second-edition/	The Quick Python Book, Second Edition
+http://www.allitebooks.com/starting-out-with-python-3rd-edition/	Starting Out with Python, 3rd edition
+http://www.allitebooks.com/python-game-programming-by-example/	Python Game Programming By Example
+http://www.allitebooks.com/building-machine-learning-systems-with-python/	Building Machine Learning Systems with Python
+http://www.allitebooks.com/web-development/python/page/5/
+http://www.allitebooks.com/mastering-python-scientific-computing/	Mastering Python Scientific Computing
+http://www.allitebooks.com/rabbitmq-cookbook/	RabbitMQ Cookbook
+http://www.allitebooks.com/raspberry-pi-led-blueprints/	Raspberry Pi LED Blueprints
+http://www.allitebooks.com/python-for-secret-agents/	Python for Secret Agents
+http://www.allitebooks.com/numerical-python/	Numerical Python
+http://www.allitebooks.com/mastering-python-for-data-science/	Mastering Python for Data Science
+http://www.allitebooks.com/python-programming-for-teens/	Python Programming for Teens
+http://www.allitebooks.com/mastering-python-high-performance/	Mastering Python High Performance
+http://www.allitebooks.com/nltk-essentials/	NLTK Essentials
+http://www.allitebooks.com/test-driven-development-with-django/	Test-Driven Development with Django
+http://www.allitebooks.com/web-development/python/page/6/
+http://www.allitebooks.com/learning-yeoman/	Learning Yeoman
+http://www.allitebooks.com/python-penetration-testing-essentials/	Python Penetration Testing Essentials
+http://www.allitebooks.com/kivy-blueprints/	Kivy Blueprints
+http://www.allitebooks.com/learning-scipy-for-numerical-and-scientific-computing-second-edition/	Learning SciPy for Numerical and Scientific Computing, Second Edition
+http://www.allitebooks.com/mastering-python-design-patterns/	Mastering Python Design Patterns
+http://www.allitebooks.com/core-python-applications-programming-3rd-edition/	Core Python Applications Programming, 3rd Edition
+http://www.allitebooks.com/introduction-to-computation-and-programming-using-python/	Introduction to Computation and Programming Using Python
+http://www.allitebooks.com/managing-your-biological-data-with-python/	Managing Your Biological Data with Python
+http://www.allitebooks.com/learning-data-mining-with-python/	Learning Data Mining with Python
+http://www.allitebooks.com/using-yocto-project-with-beaglebone-black/	Using Yocto Project with BeagleBone Black
+http://www.allitebooks.com/web-development/python/page/7/
+http://www.allitebooks.com/mastering-probabilistic-graphical-models-using-python/	Mastering Probabilistic Graphical Models using Python
+http://www.allitebooks.com/python-geospatial-development-essentials/	Python Geospatial Development Essentials
+http://www.allitebooks.com/python-geospatial-analysis-essentials/	Python Geospatial Analysis Essentials
+http://www.allitebooks.com/python-essentials/	Python Essentials
+http://www.allitebooks.com/python-data-science-essentials/	Python Data Science Essentials
+http://www.allitebooks.com/learning-python-network-programming/	Learning Python Network Programming
+http://www.allitebooks.com/test-driven-python-development/	Test- Driven Python Development
+http://www.allitebooks.com/teach-your-kids-to-code/	Teach Your Kids to Code
+http://www.allitebooks.com/mastering-matplotlib/	Mastering matplotlib
+http://www.allitebooks.com/numpy-beginners-guide-third-edition/	Numpy Beginner&#8217;s Guide, Third Edition
+http://www.allitebooks.com/web-development/python/page/8/
+http://www.allitebooks.com/python-web-penetration-testing-cookbook/	Python Web Penetration Testing Cookbook
+http://www.allitebooks.com/python-high-performance-programming/	Python High Performance Programming
+http://www.allitebooks.com/mastering-python-regular-expressions/	Mastering Python Regular Expressions
+http://www.allitebooks.com/mastering-python-for-finance/	Mastering Python for Finance
+http://www.allitebooks.com/mastering-pandas-for-finance/	Mastering Pandas for Finance
+http://www.allitebooks.com/mastering-pandas/	Mastering Pandas
+http://www.allitebooks.com/learning-scikit-learn-machine-learning-in-python/	Learning scikit-learn: Machine Learning in Python
+http://www.allitebooks.com/learning-python-testing/	Learning Python Testing
+http://www.allitebooks.com/learning-object-oriented-programming/	Learning Object-Oriented Programming
+http://www.allitebooks.com/learning-django-web-development/	Learning Django Web Development
+http://www.allitebooks.com/web-development/python/page/9/
+http://www.allitebooks.com/ipython-interactive-computing-and-visualization-cookbook/	IPython Interactive Computing and Visualization Cookbook
+http://www.allitebooks.com/web-scraping-with-python/	Web Scraping with Python
+http://www.allitebooks.com/an-introduction-to-python-and-computer-programming/	An Introduction to Python and Computer Programming
+http://www.allitebooks.com/web2py-application-development-cookbook/	web2py Application Development Cookbook
+http://www.allitebooks.com/introduction-to-python-programming-and-developing-gui-applications-with-pyqt/	Introduction to Python Programming and Developing GUI Applications with PyQT
+http://www.allitebooks.com/instant-data-intensive-apps-with-pandas-how-to/	Instant Data Intensive Apps with pandas How-to
+http://www.allitebooks.com/python-for-kids-a-playful-introduction-to-programming/	Python for Kids: A Playful Introduction to Programming
+http://www.allitebooks.com/opencv-computer-vision-with-python/	OpenCV Computer Vision with Python
+http://www.allitebooks.com/building-web-applications-with-flask/	Building Web Applications with Flask
+http://www.allitebooks.com/data-science-from-scratch-first-principles-with-python/	Data Science from Scratch: First Principles with Python
+http://www.allitebooks.com/web-development/python/page/10/
+http://www.allitebooks.com/beginning-programming-with-python-for-dummies/	Beginning Programming with Python For Dummies
+http://www.allitebooks.com/beginning-python-visualization-2nd-edition/	Beginning Python Visualization, 2nd Edition
+http://www.allitebooks.com/building-probabilistic-graphical-models-with-python/	Building Probabilistic Graphical Models with Python
+http://www.allitebooks.com/creating-apps-in-kivy/	Creating Apps in Kivy
+http://www.allitebooks.com/flask-framework-cookbook/	Flask Framework Cookbook
+http://www.allitebooks.com/foundations-of-python-network-programming-3rd-edition/	Foundations of Python Network Programming, 3rd Edition
+http://www.allitebooks.com/getting-started-with-beautiful-soup/	Getting Started with Beautiful Soup
+http://www.allitebooks.com/ipython-notebook-essentials/	IPython Notebook Essentials
+http://www.allitebooks.com/learning-python-data-visualization/	Learning Python Data Visualization
+http://www.allitebooks.com/lightweight-django/	Lightweight Django
+http://www.allitebooks.com/web-development/python/page/11/
+http://www.allitebooks.com/mastering-object-oriented-python/	Mastering Object-oriented Python
+http://www.allitebooks.com/matplotlib-plotting-cookbook/	matplotlib Plotting Cookbook
+http://www.allitebooks.com/parallel-programming-with-python/	Parallel Programming with Python
+http://www.allitebooks.com/pro-python-system-administration-2nd-edition/	Pro Python System Administration, 2nd Edition
+http://www.allitebooks.com/pro-python-2nd-edition/	Pro Python, 2nd Edition
+http://www.allitebooks.com/python-3-text-processing-with-nltk-3-cookbook/	Python 3 Text Processing with NLTK 3 Cookbook
+http://www.allitebooks.com/python-algorithms-2nd-edition/	Python Algorithms, 2nd Edition
+http://www.allitebooks.com/python-network-programming-cookbook/	Python Network Programming Cookbook
+http://www.allitebooks.com/python-pocket-reference-5th-edition/	Python Pocket Reference, 5th Edition
+http://www.allitebooks.com/python-projects/	Python Projects
+http://www.allitebooks.com/web-development/python/page/12/
+http://www.allitebooks.com/python-tools-for-visual-studio/	Python Tools for Visual Studio
+http://www.allitebooks.com/scikit-learn-cookbook/	scikit-learn Cookbook
+http://www.allitebooks.com/test-driven-development-with-python/	Test-Driven Development with Python
+http://www.allitebooks.com/testing-python/	Testing Python
+http://www.allitebooks.com/think-stats-2nd-edition/	Think Stats, 2nd Edition
+http://www.allitebooks.com/data-structures-and-algorithms-in-python/	Data Structures and Algorithms in Python
+http://www.allitebooks.com/introduction-to-computer-science-using-python/	Introduction to Computer Science Using Python
+http://www.allitebooks.com/kivy-interactive-applications-in-python/	Kivy: Interactive Applications in Python
+http://www.allitebooks.com/learn-python-the-hard-way-3rd-edition/	Learn Python the Hard Way, 3rd Edition
+http://www.allitebooks.com/learning-cython-programming/	Learning Cython Programming
+http://www.allitebooks.com/web-development/python/page/13/
+http://www.allitebooks.com/learning-ipython-for-interactive-computing-and-data-visualization/	Learning IPython for Interactive Computing and Data Visualization
+http://www.allitebooks.com/learning-python-design-patterns/	Learning Python Design Patterns
+http://www.allitebooks.com/learning-python-5th-edition/	Learning Python, 5th Edition
+http://www.allitebooks.com/learning-scipy-for-numerical-and-scientific-computing/	Learning SciPy for Numerical and Scientific Computing
+http://www.allitebooks.com/numpy-beginners-guide-2nd-edition/	NumPy Beginner&#8217;s Guide, 2nd Edition
+http://www.allitebooks.com/practical-programming-2nd-edition/	Practical Programming, 2nd Edition
+http://www.allitebooks.com/pro-django-2nd-edition/	Pro Django, 2nd Edition
+http://www.allitebooks.com/programming-arcgis-10-1-with-python-cookbook/	Programming ArcGIS 10.1 with Python Cookbook
+http://www.allitebooks.com/python-and-hdf5/	Python and HDF5
+http://www.allitebooks.com/python-cookbook-3rd-edition/	Python Cookbook, 3rd Edition
+http://www.allitebooks.com/web-development/python/page/14/
+http://www.allitebooks.com/python-data-visualization-cookbook/	Python Data Visualization Cookbook
+http://www.allitebooks.com/python-geospatial-development-2nd-edition/	Python Geospatial Development, 2nd Edition
+http://www.allitebooks.com/python-in-practice/	Python in Practice
+http://www.allitebooks.com/think-bayes/	Think Bayes
+http://www.allitebooks.com/two-scoops-of-django-best-practices-for-django-1-5/	Two Scoops of Django: Best Practices For Django 1.5
+http://www.allitebooks.com/hello-python/	Hello! Python
+http://www.allitebooks.com/introduction-to-tornado/	Introduction to Tornado
+http://www.allitebooks.com/numpy-cookbook/	NumPy Cookbook
+http://www.allitebooks.com/python-for-data-analysis/	Python for Data Analysis
+http://www.allitebooks.com/python-for-kids/	Python for Kids
+http://www.allitebooks.com/web-development/python/page/15/
+http://www.allitebooks.com/scipy-and-numpy/	SciPy and NumPy
+http://www.allitebooks.com/think-complexity/	Think Complexity
+http://www.allitebooks.com/think-python/	Think Python
+http://www.allitebooks.com/numpy-1-5/	NumPy 1.5
+http://www.allitebooks.com/python-3-web-development/	Python 3 Web Development
+http://www.allitebooks.com/python-and-aws-cookbook/	Python and AWS Cookbook
+http://www.allitebooks.com/sage-beginners-guide/	Sage: Beginner&#8217;s Guide
+http://www.allitebooks.com/the-python-standard-library-by-example/	The Python Standard Library by Example
+http://www.allitebooks.com/foundations-of-python-network-programming-2nd-edition/	Foundations of Python Network Programming, 2nd Edition
+http://www.allitebooks.com/head-first-python/	Head First Python
+http://www.allitebooks.com/web-development/python/page/16/
+http://www.allitebooks.com/mysql-for-python/	MySQL for Python
+http://www.allitebooks.com/pro-python/	Pro Python
+http://www.allitebooks.com/professional-ironpython/	Professional IronPython
+http://www.allitebooks.com/programming-python-4th-edition/	Programming Python, 4th Edition
+http://www.allitebooks.com/python-algorithms/	Python Algorithms
+http://www.allitebooks.com/python-geospatial-development/	Python Geospatial Development
+http://www.allitebooks.com/python-text-processing-with-nltk-2-0-cookbook/	Python Text Processing with NLTK 2.0 Cookbook
+http://www.allitebooks.com/real-world-instrumentation-with-python/	Real World Instrumentation with Python
+http://www.allitebooks.com/the-definitive-guide-to-jython/	The Definitive Guide to Jython
+http://www.allitebooks.com/wxpython-2-8-application-development-cookbook/	wxPython 2.8 Application Development Cookbook
+http://www.allitebooks.com/web-development/python/page/17/
+http://www.allitebooks.com/beginning-django-e-commerce/	Beginning Django E-Commerce
+http://www.allitebooks.com/bioinformatics-programming-using-python/	Bioinformatics Programming Using Python
+http://www.allitebooks.com/head-first-programming/	Head First Programming
+http://www.allitebooks.com/learning-python-4th-edition/	Learning Python, 4th Edition
+http://www.allitebooks.com/natural-language-processing-with-python/	Natural Language Processing with Python
+http://www.allitebooks.com/practical-programming/	Practical Programming
+http://www.allitebooks.com/pro-ironpython/	Pro IronPython
+http://www.allitebooks.com/programming-in-python-3-2nd-edition/	Programming in Python 3, 2nd Edition
+http://www.allitebooks.com/python-3-for-absolute-beginners/	Python 3 for Absolute Beginners
+http://www.allitebooks.com/python-pocket-reference-4th-edition/	Python Pocket Reference, 4th Edition
+http://www.allitebooks.com/web-development/python/page/18/
+http://www.allitebooks.com/python-web-development-with-django/	Python Web Development with Django
+http://www.allitebooks.com/django-1-0-template-development/	Django 1.0 Template Development
+http://www.allitebooks.com/expert-python-programming/	Expert Python Programming
+http://www.allitebooks.com/python/	Python
+http://www.allitebooks.com/python-for-unix-and-linux-system-administration/	Python for Unix and Linux System Administration
+http://www.allitebooks.com/cherrypy-essentials/	CherryPy Essentials
+http://www.allitebooks.com/getting-started-with-pyparsing/	Getting Started with Pyparsing
+http://www.allitebooks.com/python-in-a-nutshell-2nd-edition/	Python in a Nutshell, 2nd Edition
+http://www.allitebooks.com/beginning-python/	Beginning Python
+http://www.allitebooks.com/python-cookbook-2nd-edition/	Python Cookbook, 2nd Edition
+http://www.allitebooks.com/web-development/python/page/19/
+http://www.allitebooks.com/making-use-of-python/	Making Use of Python
+http://www.allitebooks.com/python-xml/	Python &amp; XML
+http://www.allitebooks.com/learning-pandas/	Learning Pandas
