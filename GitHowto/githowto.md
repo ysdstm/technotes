@@ -38,3 +38,24 @@ Go to ~/.ssh, find id_rsa.pub and copy the rsa key, paste it to git-settings-SSH
 	git add .
 	git commit -m 'update'
 	git push
+
+### Change git protocol from https to ssh
+
+check current protocol, `git remote -v`
+
+change  
+
+	git remote rm origin
+	git remote add origin git@github.com:zwinzhu/technotes.git
+
+or  
+
+	git remote set-url origin git@github.com:zwinzhu/technotes.git
+
+finally  
+	
+	#全部推送
+	git config --global push.default maching
+	or
+	#部分推送
+	git config --global push.default simple
