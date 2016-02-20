@@ -5,7 +5,7 @@
 
 #### 修改域控制器名称
 
-悲剧！忘记修改计算机明，又不想重装系统  
+悲剧！忘记修改计算机名，又不想重装系统  
 参考`http://freemanluo.blog.51cto.com/636588/498907/`
 
 例如原名称是WIN-LB8MTVXI17V.DOMAIN.LOCAL  
