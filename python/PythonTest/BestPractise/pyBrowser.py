@@ -4,6 +4,9 @@ import time
 import urllib
 import string
 
+#sudo pip install mechanize
+#sudo pip install beautifulsoup4
+
 print '========Welcome to Mechanize Browser.========'
 link="http://"+raw_input("Input a URL(e.g. www.baidu.com):\n")
 br=mechanize.Browser()
