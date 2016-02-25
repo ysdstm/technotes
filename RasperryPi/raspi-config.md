@@ -47,7 +47,7 @@ ping命令在运行中采用了ICMP协议，需要发送ICMP报文。但是只�
 	sudo apt-get install pptp-linux
 	
 	quick-setup
-	pptp --create VPNNAME --server VPNSERVER --username USERNAME --password PASSWORD --encrypt
+	pptpsetup --create VPNNAME --server VPNSERVER --username USERNAME --password PASSWORD --encrypt
 	check config file
 	/etc/ppp/peers/VPNNAME
 	
