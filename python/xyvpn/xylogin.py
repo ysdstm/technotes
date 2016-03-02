@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*-coding:utf8-*-
 import HTMLParser  
 import urlparse  
 import urllib  
@@ -6,6 +8,11 @@ import cookielib
 import string  
 import re  
 import time
+
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.image import MIMEImage
 
 hosturl = 'http://home.zhxin.net/portal/index.html'
 
@@ -26,8 +33,8 @@ headers = {'User-Agent' : 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20
 postData = {'utf8' : '&#x2713;',
 	'authenticity_token' : 'XPUWie8/pucc/HjUFnAjA9fYrhcLWm/aNjq0oemgGKY=',
 	'act' : 'login',
-	'email' : 'zwinzhu@163.com',
-	'password' : 'riwfnyuki'}
+	'email' : '****@163.com',
+	'password' : 'mypassword'}
 
 postData = urllib.urlencode(postData)  
 
@@ -67,4 +74,4 @@ def sendEmail(smtpserver,username,password,sender,receiver,subject,msgtext):
 	smtp.sendmail(sender, receiver, msgRoot.as_string())
 	smtp.quit()
 
-sendEmail('smtp.163.com','***@163.com','***','***@163.com <***@163.com>',['***@***.com'],'IP Address Of Raspberry Pi',ipaddr)
+sendEmail('smtp.163.com','***@163.com','***','***@163.com <***@163.com>',['***@***.com'],'XY Server',vpnserver)
