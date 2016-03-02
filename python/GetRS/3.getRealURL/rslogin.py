@@ -10,8 +10,8 @@ user_agent='Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) 
 values={'fmdo' : 'login',
 	'dopost' : 'login',
 	'keeptime' : '604800',
-	'userid' : 'zasw',
-	'pwd' : 'QWEasd&*($%^'}
+	'userid' : 'z**w',
+	'pwd' : 'Q****^'}
 cj = cookielib.LWPCookieJar()
 opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
 urllib2.install_opener(opener)

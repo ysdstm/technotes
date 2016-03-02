@@ -26,8 +26,8 @@ headers = {'User-Agent' : 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20
 postData = {'fmdo' : 'login',
     'dopost' : 'login',
 	'keeptime' : '604800',
-	'userid' : 'zasw',
-	'pwd' : 'QWEasd&*($%^'}
+	'userid' : 'z**w',
+	'pwd' : 'Q****^'}
   
 
 postData = urllib.urlencode(postData)  
