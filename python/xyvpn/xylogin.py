@@ -50,3 +50,21 @@ html=response.read()
 links=re.findall(r"<td><strong>.+",html)
 vpnserver = links[0]
 print vpnserver
+
+#发送邮件的基本函数，参数依次如下
+# smtp服务器地址、邮箱用户名，邮箱密码，发件人地址，收件人地址（列表的方式），邮件主题，邮件html内容
+def sendEmail(smtpserver,username,password,sender,receiver,subject,msgtext):
+	msgRoot = MIMEMultipart('related')
+	msgRoot["To"] = ','.join(receiver)
+	msgRoot["From"] = sender
+	msgRoot['Subject'] =  subject
+	msgText = MIMEText(msgtext,'plain','utf-8')
+	msgRoot.attach(msgText)
+	#sendEmail
+	smtp = smtplib.SMTP()
+	smtp.connect(smtpserver)
+	smtp.login(username, password)
+	smtp.sendmail(sender, receiver, msgRoot.as_string())
+	smtp.quit()
+
+sendEmail('smtp.163.com','***@163.com','***','***@163.com <***@163.com>',['***@***.com'],'IP Address Of Raspberry Pi',ipaddr)
