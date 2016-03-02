@@ -33,10 +33,10 @@ postData = urllib.urlencode(postData)
 
 
 request = urllib2.Request(posturl, postData, headers)  
-print request  
+#print request  
 response = urllib2.urlopen(request)  
 text = response.read()  
-print text
+#print text
 
 print "============================================================"
 
@@ -45,8 +45,8 @@ req=urllib2.Request(old_url)
 response=urllib2.urlopen(old_url)
 print 'Old url:'+old_url
 print 'Real url:'+response.geturl()
-print response.read()
+#print response.read()
 html=response.read()
 links=re.findall(r"<td><strong>.+",html)
-for link in links:
-	print link
+vpnserver = links[0]
+print vpnserver
