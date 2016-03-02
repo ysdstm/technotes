@@ -9,6 +9,7 @@ import string
 
 print '========Welcome to Mechanize Browser.========'
 link="http://"+raw_input("Input a URL(e.g. www.baidu.com):\n")
+pagecode=int(raw_input("Input pagecode: 1.gb2312 2.utf-8"))
 br=mechanize.Browser()
 r=br.open(link)
 html=r.read()
@@ -21,7 +22,9 @@ while num!=0:
 		page_link=[]
 		i=0
 		for link in br.links():
-			print str(i)+'.'+link.url+':'+link.text.decode("gb2312")
+			if pagecode==1:
+				link.text=link.text.decode("gb2312")
+			print str(i)+'.'+link.url+':'+link.text
 			page_link.append(link.url)
 			i=i+1
 		link_num=int(raw_input("Select a link:\n"))
@@ -31,7 +34,9 @@ while num!=0:
 		html=r.read()
 
 	if num==2:
-		print html.decode("gb2312")
+		if pagecode==1:
+			html=html.decode("gb2312")
+		print html
     
 	if num==3:
 		soup=BeautifulSoup(html,'html.parser')
