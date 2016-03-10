@@ -1,0 +1,997 @@
+C:\Windows\system32>xxcopy /help
+
+XXCOPY64  == Freeware ==    Ver 3.21.9  (c)1995-2015 Pixelab, Inc.
+
+===== Invocation Syntax =====
+
+XXCOPY src [ dst ] [ options... ]
+
+        src  Specifies the source file(s) or directory to copy.
+        dst  Specifies the destination directory (no file names).
+             If dst ends with a trailing backslash, /I is assumed.
+             When any pathname is specified with an embedded blank,
+             the pathname must be surrounded by a pair of doublequotes.
+
+ CAUTION:  The following list of the command description is *NOT*
+           designed for new users to learn the XXCOPY command set.
+           To quickly locate a short description of a command switch,
+           use the /HELPA command for the alphabetic listing.
+           For a better organized listing, see XXTB #27 at:
+
+                  http://www.xxcopy.com/xxcopy27.htm
+
+      -----  The following switches use file attributes to select files -----
+
+         /A  Same as /ATA. Copies only files with the archive attribute set.
+             Doesn't change the attribute.
+         /M  Copies only src files with the archive attribute set.
+             Then, turns off the archive attribute of the source file.
+  /AT<mask>  Selects files by the attribute bits (ACHSRo).
+             You may use two or more /AT<mask> switches to specify multiple
+             attributes required.  E.g., /ATA/ATH qualifies files with both
+             the A(rchive) bit and the H(idden) bits.
+             Or, you may use one /AT<mask> switch with multiple letters to
+             select alternative attribute bits to select files.  E.g.,
+             /ATAH qualifies a file which has either A-bit, H-bit or both.
+  /AX<mask>  Excludes files with the specified attribute bits (ACHSRo).
+             You may use two or more /AX<mask> switches to specify
+             attribute bits to exclude files for file operations.  E.g.,
+             /AXA/AXH excludes files with A-bit, H-bit, or both.
+             Or, you may use one /AX<mask> switch with multiple letters to
+             exclude files with only the specified combination of attribute
+             bits.  E.g., /AXAH excludes files with both A-bit and H-bit.
+
+      Note:  The /AT<mask> and /AX<mask> switches have opposite conjugation
+             rules (the effects of combining attribute bits --- AND and OR).
+
+        /A0  Cancels *ALL* /A, /M, /AT, and /AX switches.
+
+      -----  The following switches modifiy the file attributes -----
+
+        /AA  Sets   the src file archive bit (without actually copying).
+        /AZ  Clears the src file archive bit (without actually copying).
+             Note: Both /AA and /AZ implicitly set /H (can be overridden).
+        /AC  Clears the arch attribute of the src file after file action.
+        /AM  Marks (sets) the arch attribute of the src file after file action.
+  /AN<mask>  Sets a new value to file attribute bits (replace the value).
+             The <mask> value is a combination of letters, AHSRo.
+      Note:  Unlike /AR and /AS, you cannot change the C-bit with /AN.
+  /AR<mask>  Resets file attribute bits (clears specified bits).
+  /AS<mask>  Sets file attribute bits (sets specified bits).
+
+      Note:  The <mask> value for /AR and /AS specifies attributes (ACHSRo)
+             whose bits are either reset or set respectively to the existing
+             file attributes. Unspecified attributes bits are kept unchanged.
+             You may use both the /AR and /AS switches in one command.
+
+ /ARD<mask>  Resets dir attribute bits (clears specified bits).
+ /ASD<mask>  Sets dir attribute bits (sets specified bits).
+
+             /ARD and /ASD work on directories analogous to /AR and /AS.
+
+      Note:  The /AA, /AN, /AR, /AS, /ARD, /ASD and /AZ switches modify the
+             file attributes without copying the files to the destination,
+             whereas the /A, /AT and /AX switches select files by the file
+             attributes for various operations (copy, list, remove, etc.).
+
+      -----  The following switches use other file attribute bits -----
+
+         /H  Copies hidden and/or system files also.
+        /H0  Excludes hidden and/or system files (default).
+        /Ho  Copies hidden and/or system files only.
+         /R  Allows overwrite/delete of read-only files.
+        /R0  Cancels overwrite/delete of read-only files.
+
+      -----  The following switches determine file attributes on copy -----
+
+         /K  Keeps the source attributes including read-only (same as /KS).
+        /KS  Keeps the source attributes including the read-only bit.
+        /KD  Keeps the attributes of destination (overwritten) file.
+        /KN  Sets the destination attributes to normal (only the A-bit).
+        /K0  Keeps H-bit and S-bit, sets A-bit, clears R-bit (default).
+
+      /KCDP  Sets dst dir's C-bit with that of its parent dir (default).
+      /KCDD  Keeps dst dir's C-bit, a new dir gets its parent's C-bit.
+      /KCDS  Sets dst dir's C-bit with that of src dir's C-bit.
+      /KCDC  Always sets the C-bit of dst directory (compress).
+      /KCDU  Always resets the C-bit of dst directory (uncompress).
+
+      /KCFP  Sets dst file's C-bit with that of its parent dir (default).
+      /KCFD  Keeps dst file's C-bit, a new file gets its parent's C-bit.
+      /KCFS  Sets dst file's C-bit with that of src file's C-bit.
+      /KCFC  Always sets the C-bit of dst file (compress).
+      /KCFU  Always resets the C-bit of dst file (uncompress).
+
+      Note:  The /Kx switches affect only A, R, H, and S bits of files,
+             whereas /KCFx and /KCDx affect only the C-bit of files and
+             directories, respectively.
+
+      -----  The following switches are useful for backup and archive -----
+
+        /BI  Backs up incrementally, different (by time/size) files only.
+        /BA  Similar to /BI but includes dirs/files with different attrib.
+        /BB  Backs up brand new files only (does not overwrite existing ones).
+        /BN  Backs up newer files only      (includes brand new files).
+        /Bo  Backs up older files only      (includes brand new files).
+        /BX  Backs up different-date files  (includes brand new files).
+        /BZ  Same as /BZX.
+       /BZE  Backs up equal-size  files  (includes brand new files).
+       /BZL  Backs up larger-size files  (includes brand new files).
+       /BZS  Backs up smaller-size files (includes brand new files).
+       /BZX  Backs up different-size files  (includes brand new files).
+        /BE  Backs up exactly the same files(includes brand new files).
+        /BS  Selects exactly the same files (this is useful with /RS).
+        /BU  Standard Backup switch (a short form of /BACKUP).
+        /B0  Undo any of /BA, /BI, /BB, /BN, /Bo, /BX, or /BZ switches.
+         /U  Updates the files that already exist in destination.
+        /SP  Spans the copy job over multiple destination (new volume).
+       /CD0  Does not compare file data byte-by-byte (default).
+       /CDM  Selects files whose data match in byte-by-byte comparison.
+       /CDU  Selects files whose data unmatch and brand new files.
+       /CDX  selects files whose data match byte-by-byte and brand new files.
+
+     /CLONE  Duplicates a directory (volume).  This switch is a shortcut for
+             the following combination: /KS/H/E/R/Q/Y/BI/ZY/ZE/oD0.
+    /BACKUP  Standard Backup without deleting any file (/CLONE without /ZY).
+             A shortcut for the following combination: /KS/H/E/R/Q/Y/BI/ZE/oD0.
+
+      Note:  A "brand new" file refers to a file which exists in the
+             source directory but not in the destination directory
+             (Micrososoft's Robocopy call it a "lonely file").
+
+      -----  The following switch adds inclusive alternate templates -----
+
+  /IN<tmpl>  Includes an alternate filename template (tmpl).
+
+             You may specify as many alternate filename patterns as you want.
+             The template must be for the "Lastname" of the source specifier
+             (no backslash in the template, but wildcard characters are OK).
+
+      -----  The following switch selects filepaths in the include file -----
+
+/EIN<inlst>  Specifies a text file with a list of filepaths to be included.
+             Two or more /EIN switches may be specified in a command.
+             The current version of XXCOPY does not support a wildcard
+             in the included filepath. (This may change in the future.)
+
+      Note:  Even with an /EIN switch present, the source specifier must always
+             be furnished in the command line.  The destination directory is
+             also required for operations that need one.
+
+      Note:  When a filepath in an include file does not exist, or fails to
+             match the path template in the source specifier, the file will
+             not be selected in the operation.
+
+      Note:  With an /EIN switch, XXCOPY will merge the entire set of included
+             files for the job and sort the order of access, eliminating
+             files duplicated and those that are outside of the source base
+
+      Note:  The base path can be specified with a /BASE<path> switch that
+             follows immediately after an /EIN switch to override the base
+             directory when the original file list was generated.
+
+/BASE<path>  Sets an optional base path for the paths in /EIN list file
+             that appears immediately to its left in the command line.
+
+      -----  The following switches exclude directories or files -----
+
+  /X<xspec>  Adds an exclusion specifier (xspec) (see below for exclusion).
+ /EX<xlist>  Specifies a text file which contains a list of xspecs (see below).
+
+    <xspec>  Exclusion item for /X and the file contents specified by /EX.
+
+             . The text file may contain an arbitrary number of xspecs which
+               are separated by space, tab, or newline characters.
+             . An xspec with embedded spaces must be surrounded by a pair
+               of double-quote characters(").
+             . An xspec cannot span from one line to another.
+             . Two consecutive colons (::) or slashes (//) start a comment
+               field which ends at the end of the line.
+             . You may specify more than 1 exclusion file.  In such a
+               case all of the exclusion files will be processed.
+
+             Exclusion specifier (xspec) syntax:
+
+             . You may use any number of wildcard characters (* or ?) anywhere
+               in an exclusion specifier (Wild-Wildcard).
+             . An xspec for directories must be followed by a backslash.
+             . An xspec not followed by a backslash is for files.
+             . To use the old syntax for directory_template\?\*, you must
+               the /GX switch.  In lieu of the obsolete syntax, it is advised
+               that the regular syntax (directorY_template\?*\*) be used.
+             . A bare file template applies to all directories.
+               E.g., *.mp3 is treated as *\*.mp3 (*\ is implicitly assumed).
+
+             XXCOPY optimizes the exclusion parameter by eliminating
+             some redundant specifiers.
+             Use "/W/oX" with xspec to test the syntax.
+
+      /ZLX0  Disables exclusion testing (default).
+       /ZLX  Enables exclusion test (displays only excluded objects).
+
+             Note: /ZLX performs a 'dry-run' (like /L) without copying files.
+
+      -----  The following switches limit files by the filetime -----
+
+         /D  Same as /DA.
+        /DA  Copies newer files and brand new files.
+        /DB  Copies older files and brand new files.
+        /DS  Copies only the files whose filetime is exactly the same.
+        /DX  Copies only the files whose filetime is different in any way.
+
+      Note:  All filetime comparisons are affected by the fuzzy range (/FF).
+
+  /D:<date>  Same as /DA:<date>.
+ /DA:<date>  Copies files that were changed on or after the specified date.
+ /DB:<date>  Copies files that were changed on or before the specified date.
+ /Do:<date>  Copies files that were changed on the specified date.
+    /DA#<n>  Copies files that were changed on or after  <n> days ago.
+    /DB#<n>  Copies files that were changed on or before <n> days ago.
+    /Do#<n>  Copies files that were changed on the day   <n> days ago.
+
+      Note:  A "brand new" file refers to a file which exists in the
+             source directory but not in the destination directory
+             (Micrososoft's Robocopy call it a "lonely file").
+
+      Note:  With /DA#<val>, /DB#<val> and /DO#<val>, the parameter <val> will
+             be treated as the number of Days unless it is appended with a
+             one-letter suffix (D, H, M, or S which stand for Days, Hours,
+             Minutes, or Seconds, respectively).  When <val> is given in
+             the number of days, the exact time is midnight of the day.
+
+             e.g., /DA#0 denotes files made some time today after midnight.
+                   /DO#2 means all day the day before yesterday.
+                   /DA#30m selects files made within the last 30 minutes.
+
+      /DA:.  Copies files that were changed today or later (same as /DA#0).
+      /DB:.  Copies files that were changed yesterday or earlier.
+      /Do:.  Copies files that were changed today only.
+
+             /DA:<val> and /DB:<val> work as a pair if both are specified.
+
+             e.g., /DA:1997-01-01 /DB:1997-12-31  files made in 1997
+                   /DA:1997-04-01 /DB:1997-04-30  files made in April 1997
+                   /DB:1997-03-31 /DA:1997-05-01  exclude files made in April
+                   /DA:1997-01-01 /DB:1997-01-01  try shorter /Do:1997-01-01
+
+             Since the US and European conventions are not reconcilable,
+             we recommend the ISO 8601 standard (YYYY-MM-DD) with a 4-digit
+             year value followed by month and day.  If all values have two
+             digits only, it is interpreted according to the system setting.
+             A file date must be between 1970-01-01 and 2069-12-31.
+
+             A partial date specifier is accepted for /DA:, /DB: and /DO:
+             where yyyy-mm and yyyy denote the month and year respectively.
+             E.g., /DO:2000-2 is equivalent to /DA:2000-2-1 /DB:2000-2-29,
+             and /DB:1999 to /DB:1999-12-31, and /DA:2000 to /DA:2000-1-1.
+
+ /DA:<time>  Same as /DA:<date> except an additional time value may be added.
+ /DB:<time>  Same as /DB:<date> except an additional time value may be added.
+
+             The <time> parameter starts with the <date> (as shown above)
+             followed by 'T' or '@' and hh:mm:ss, hh:mm, or hh.
+
+       e.g., 2002-10-25T15:25:30  (recommended as ISO 8601 std)
+             31-10-2002@13:00   10-31-2002@13 (min and sec may be omitted)
+             (/D0:<date> cannot be specified with the <time> value).
+
+      Note:  /DA, /DB, /DX, /DS, /Do, /DA:<date> and /DB:<date> are mutually
+             exclusive (except /DA:<date> and /DB:<date> work as a pair).
+
+      Note:  /DA /DB and /DD, if date is omitted, are the same as /BN and /Bo
+             except they can be combined with another /B switch (e.g., /BI).
+
+      Note:  /DA, /DB, /DX and /DS compare source and destination files using
+             both date and time whereas /DA:<date> and /DA#<n> use date only.
+
+        /D0  Cancels all file-date related (/D...) switches.
+
+      -----  The following switches modify filetime semantics -----
+
+        /FW  Uses the Last-Write timestamp for Filetime (default).
+        /FA  Uses the Last-Access timestamp for Filetime.
+        /FC  Uses the Creation timestamp for Filetime.
+
+             Note: /FW, /FA and /FC are mutually exclusive choices.
+
+        /FL  Filetime in Local time (default).
+        /FU  Filetime in UTC (Universal Coordinated Time - same as GMT).
+
+             Note: /FL and /FU are mutually exclusive choices.
+
+        /FF  Fuzzy Filetime (same as /FF2S --- matches within 2 sec).
+       /FF0  Fuzzy Filetime cancelled (adjustment value set to +/- 0).
+   /FF<val>  Fuzzy Filetime, adjust ref time +/- <val> seconds.
+  /FF+<val>  Fuzzy Filetime, adjust ref time by adding <val> seconds.
+  /FF-<val>  Fuzzy Filetime, adjust ref time by subtracting <val> seconds.
+
+      Note:  With /FF<val>, /FF+<val> and /FF-<val>, the parameter <val> will
+             be treated as the number of seconds unless it is appended with a
+             one-letter suffix (D, H, M, or S which stand for Days, Hours,
+             Minutes, or Seconds, respectively).
+
+             e.g., /FF     treats file times within +/- 2 sec as the same.
+                   /FF-1H  treats files older by up to 1 hour as the same.
+                   /FF+2/FF-4 (you may choose asymmetric slack values).
+
+      Note:  The /FF switch affects all filetime comparisons such as /CLONE,
+             /BI,/BA,/BU,/BS,/BX,/BO,/BN,/DA,/DB,/DS,/DX,/TS and /TD.
+
+      Note:  The FAT (DOS/Win9x) file system has a 2-second granularity in
+             file time whereas NTFS, Unix and other file systems use finer
+             time stamps.  The /FF switch is useful for incremental backup
+             between volumes of different file systems.
+
+      -----  The following switches cope with time zones -----
+
+    /TS+<n>  Adds an offset to the time of source (and the copied ) file.
+    /TS-<n>  Subtracts an offset time from source (and the copied) file.
+    /TD+<n>  Adds an offset to the time of the destination file.
+    /TD-<n>  Subtracts an offset time from the dst file for comparison.
+
+      Note:  The offset value <n> for /TS and /TD is specified in hours
+             unless it is appended with a one-letter suffix (D, H, M, or S
+             which stand for Days, Hours, Minutes, or Seconds respectively).
+
+      -----  The following switches control timestamps -----
+
+       /TTA  Touches (modifies) timestamp of Last Access of src.
+      /TTA0  Preserves timestamp of Last Access of src (default).
+
+        /TC  Shortcut for /TCA/TCC/TCW (copies all three types of timestamps).
+       /TC0  Shortcut for /TCA0/TCC0/TCW0.
+
+       /TCA  Copies the timestamp of Last Access fm src to dst.
+      /TCA0  Uses current time for dst Last Access (default).
+
+       /TCC  Copies the timestamp of Create Time fm src to dst.
+      /TCC0  Uses current time for dst Create time (default).
+
+       /TCW  Copies the Last Write time fm src to dst (default).
+      /TCW0  Uses current time for dst Last Write time.
+
+      -----  The following switches qualify the source by file size -----
+
+/SZ:<n>-<m>  Selects files whose size is between n bytes and m bytes.
+   /SZ:<n>-  Selects files whose size is equal to or greater than n bytes.
+   /SZ:-<m>  Selects files whose size is equal to or less than m bytes.
+    /SZ:<n>  Selects files whose size is exactly n bytes.
+/SZ!<n>-<m>  Selects files whose size is NOT between n bytes and m bytes.
+   /SZ!<n>-  Selects files whose size is NOT equal to or greater than n bytes.
+   /SZ!-<m>  Selects files whose size is NOT equal to or less than m bytes.
+    /SZ!<n>  Selects files whose size is NOT equal to n bytes.
+      /SZ:-  Disables size-based selection (/SZ!- also works).
+
+      Note:  The size values <n> and <m> are entered in bytes unless appended
+             with a suffix letter (K, M, G, T which stand for metric
+             kilo (x1000), mega (x1000000), giga (x1000000000), or
+             tera (x1000000000000), respectively).
+
+      -----  The following switch limits the destination file size -----
+
+     /TR<n>  Truncates the new file to (copies the first) n bytes.
+
+      -----  The following switches deal with subdirectories -----
+
+         /S  Copies directories and subdirectories except empty ones.
+         /E  Copies directories and subdirectories, including empty ones.
+             Same as /S /E.
+
+         /T  Creates directory structure, but does not copy files.  It copies
+             all directories including empty ones (implicitly sets /E).
+
+        /SG  Same as /SGN (see variations in handling duplicates below).
+       /SGF  Gathers files into one-level directory (unsorted First file 1st).
+       /SGL  Gathers files into one-level directory (unsorted Last  file 1st).
+       /SGN  Gathers files into one-level directory (sorted, Newest file 1st).
+       /SGo  Gathers files into one-level directory (sorted, Oldest file 1st).
+      /SGFo  Gathers files into one-level directory (First  only).
+      /SGLo  Gathers files into one-level directory (Last   only).
+      /SGNo  Gathers files into one-level directory (Newest only).
+      /SGoo  Gathers files into one-level directory (Oldest only).
+       /SG0  Cancels file-gather switches (/SG...).
+
+      Note:  /SGL and /SGLo is works well with other file-selection switches.
+             E.g., /SGLo /BZL to gather the largest file of its kind.
+
+        /SL  Flattens subdirectories, add-name-Left   (see below).
+        /SX  Flattens subdirectories, add-name-Middle (see below).
+        /SR  Flattens subdirectories, add-name-Right  (see below).
+
+             /SL, /SX, and /SR are the same as /S except the output files
+             will be saved as a flat directory without adding levels of
+             subdirectories.  The source subdirectory name will become a
+             part of the target filename.  /SL and /SR add the subdir name
+             to the left or right of the name respectively.
+             /SX inserts the subdirectory name in the middle.
+
+       /SLR  Rebuilds flattened directory (path to the left).
+       /SXR  Rebuilds flattened directory (path in the middle).
+       /SRR  Rebuilds flattened directory (path to the right).
+
+             /SLR /SXR, and /SRR do opposite of /SL, /SX and /SR, respectively.
+
+      /S<d>  Sets the directory delimiter character for /SL, /SX and /SR,
+             where <d> is any legal non-alphabetic, non-blank character.
+             The default delimiter is back-apostrophe (`).
+
+     /DL<n>  Limits processing of directory nesting to n levels.
+             /DL0 removes the limit.  /DL works only when /S or /E is set.
+
+      -----  The following switches deal with the path length -----
+
+        /VL  Enables the Very Long Path (same as /VL32767).
+     /VL<n>  Sets the maximum path length to n chars (up to 32767).
+       /VL0  Disables the Very Long Path (default with 259 chars).
+
+/PL:<n>-<m>  Selects files whose full path length is between n and m.
+   /PL:<n>-  Selects files whose full path length is n or greater.
+   /PL:-<m>  Selects files whose full path length is m or less.
+   /PL:<n>   Selects files whose full path length is exactly n.
+/PL!<n>-<m>  Selects files whose full path length is NOT between n and m.
+   /PL!<n>-  Selects files whose full path length is NOT n or greater.
+   /PL!-<m>  Selects files whose full path length is NOT m or less.
+    /PL!<n>  Selects files whose full path length is NOT equal to n.
+      /PL:-  Disables path length-based selection (/PL!- also works).
+
+      -----  The following switches check the destination directory -----
+
+         /I  If destination does not exist and copying more than one file,
+             assumes that destination must be a directory (no prompting).
+             Note: when the destination specifier ends with a backslash,
+             it declares as a directory which implicitly sets the /I switch.
+        /IA  Continues if destination is absent (terminates if exists).
+  /IA<item>  Continues if the specified item (file/directory) is absent.
+        /IP  Continues if destination is present (terminates if absent).
+  /IP<item>  Continues if the specified item (file/directory) is present.
+/ILD<label>  Continues if the destination volume label matches as specified.
+/ILS<label>  Continues if the source volume label matches as specified.
+
+         /Z  Deletes extra files or subdirectories in destination.
+        /ZY  Same as /Z except there is no confirmation prompt.
+
+      -----  The following switches control the file copy buffer size -----
+
+     /ZB<n>  Sets the size of the file copy buffer (in bytes, 4G max).
+       /ZB0  Cancels the buffer size setting (uses the default size).
+
+      -----  The following switches control the safe file overwrite -----
+
+        /So  Enables Standard Safe File Overwrite (Same as /So1).
+       /So0  Disables Safe File Overwrite.
+       /So1  Enables Standard Safe File Overwrite (default).
+       /So2  Enables Very Safe File Overwrite (always via temporary file).
+
+      -----  The following switches control the file versioning -----
+
+        /JV  Archives existing dst file with a versioning number (9999).
+     /JV<n>  Archives existing dst file up to up to n versions.
+       /JV0  Disables versioning by simply overwriting the existing file
+
+      -----  The following switches control the prompting behaviors -----
+
+         /P  Prompts you before creating each destination file.
+        /PC  Prompts you before creating new files.
+       /PC0  Suppresses warning on file-creation.
+        /Po  Prompts you before overwriting existing files (default).
+       /Po0  Suppresses warning on file-overwrite (Legacy /Y).
+        /PD  Prompts you before processing each directory.
+       /PD0  Suppresses prompt before processing each directory.
+        /PJ  Prompts before a different type dst is overwritten (default).
+       /PJ0  Suppresses the warning for trans-overwrite (different type).
+        /PM  Prompts before deleting existing file at the move destination.
+       /PM0  Suppresses prompts on deleting existing file at move destination.
+        /PN  Prompts when on excessive failures on /NX operations.
+       /PN0  Suppresses prompts on excessive failures of /NX operatoins.
+        /PZ  Prompts you for confirmation of the dst (for /CLONE /Z /ZY).
+       /PZ0  Suppresses the prompt for directory confirmation on /CLONE /Z /ZY.
+        /PP  Enables  the space bar press-for-pause feature (default).
+       /PP0  Disables the space bar press-for-pause feature.
+        /PR  Prompts on removing a file whose path contains reparse pt (default).
+       /PR0  Does not prompt before removing a filw with reparse point path.
+        /PW  Enables  Prompt with Dialog Window.
+       /PW0  Disables Prompt with Dialog Window (default).
+
+         /W  Same as /WS.
+        /WS  Prompts you to press a key at the start of the job.
+     /WS<n>  Waits at the start of operation for a specified period (n sec).
+        /WE  Prompts you to press a key at the end of the job.
+     /WE<n>  Waits at the end of the operation for a specified period (n sec).
+        /WD  Prompts with a warning for copying a non-directory src (default).
+       /WD0  Suppresses warning for copying a non-directory source.
+        /WL  Issues a warning when a path length exceeds the limit (default).
+       /WL0  Suppresses warning for a path length that exceeds the limit.
+        /WN  Displays a warning on failure on SFN-preservation in file copy.
+       /WN0  Suppresses warning on failure on SFN-preservation in file copy.
+     /WU<n>  Prompts with a warning for unnecessary destination (default).
+    /WU0<n>  Suppresses warning for unnecessary destination specifier.
+
+         /C  Continues copying even if errors occur (default).
+        /C0  Disables the /C switch (terminates upon error).
+        /CB  Continues batch file if XXCOPY ended OK last time.
+       /CB0  Cancels the /CB and /CBQ switches.
+       /CBQ  Same as /CB except suppresses console output to end immediately.
+        /CE  Same as /CBQ/EC (most useful in batch file with @echo off).
+     /CR<n>  Sets the retry period (n seconds, default = 3) on failed copy.
+
+         /Y  Overwrites existing files without prompt (same as /Po0) (see /BB).
+        /-Y  Prompts you before overwriting existing files (same as /Po).
+        /Y0  Same as above (also /Po or /-Y).
+        /YY  Suppresses nearly all prompts (good for batch scripts).
+
+      -----  The following switches control Remove (file delete) -----
+
+        /RC  Removes files in src after a successful copy (equivalent to move).
+        /RS  Removes files in src which qualify (no copying).
+        /RD  Removes files in dst which qualify to be overwritten (no copying).
+        /RX  Removes files in dst which are absent in src (no copying).
+        /R0  Cancels overwrite/delete of read-only files.
+       /RCP  Prompts on source-file-remove after successful copy (default).
+       /RCY  Suppresses prompts after a successful source-file-remove.
+
+      Note:  Whereas /Y and /-Y modify prompting for the copy action
+             of /RC (Remove after Copy) switch, the suffix 'P' or 'Y' controls
+             the prompt for the file remove action after copy.
+
+      Note:  The suffix 'P' or 'Y' can also be added to any of /RS, /RD,
+             or /RX switches which will insert or suppress respective prompt.
+             For these remove-without-copy switches, the /Y and /-Y switches
+             also control the prompt for the remove action.
+
+      Note:  /RX can be thought of a /Z operation without copying files.
+             In general, the /RS/BB combination (by swapping src and dst)
+             provides more file-selection controls than the /RX switch.
+
+      Note:  /PD and /PD0 control additional prompt on each directory.
+
+     /RMDIR  Removes a directory.  Same as /RS/S/H/R/PD0/ED0.
+
+      -----  The following switch copy files -----
+
+      /CoPY  Copies files specified in the src specifier to the dst directory
+             This switch is seldom seen but implicitly set unless overridden by
+             an action selector such as /L (list), /RS (remove), etc.
+
+      -----  The following switches control Move operations -----
+
+       /MVD  Moves directories (the src and dst must be in the same volume).
+       /MVF  Moves files (the src and dst must be in the same volume).
+       /MVX  Moves files, if fails then tries /RC (remove-after-copy).
+
+      -----  The following switches control empty directories -----
+
+       /ED0  Deletes empty directories (default).
+        /ED  Preserves the directory even if it becomes empty.
+     /ED<n>  Preserves n levels of empty directories.
+
+      Note:  The /EDxx switches are in effect only with file/directory removal
+             operations (/Z, /RC, /RS, /RD, /RX, and /CLONE cases).
+
+      -----  The following switches control cyclic directory copy -----
+
+       /CC0  Disallows cyclic copy (src includes the dst directory) (default).
+        /CC  Warns a cyclic copy with a Y/N prompt.
+       /CCY  Allows a cyclic copy by excluding the destination from the src.
+
+      -----  Filename pattern matching  -----
+
+         /N  Uses the short (8.3) name for name matching, and creation.
+        /N0  Disables the /N feature (default, uses longname when applicable).
+        /NP  Uses precise name matching (default, ignores match in alias).
+       /NP0  Uses loose name matching (longname or shortname match).
+        /NX  Preserves the shortname when the file is copied.
+       /NX0  Disables the /NX (shortname preservation) feature.
+
+             Note: If src and dst are both local drive, the shortname will be
+                   preserved (/NX) by default, but if either src or dst is
+                   specified by a UNC (starts with \\), /NX0 is default.
+
+        /NL  Renames longname to match the source (No copy operations).
+        /NS  Renames shortname to match the source (No copy operations).
+       /NC0  Disables /NCL, /NCU, or /NCX (accepts letters of both cases).
+       /NCU  Uses Uppercase-only name when a new file is created.
+       /NCL  Uses Lowercase-only name when a new file is created.
+       /NCX  Uses Uppercase-only name when a new short-name file is created.
+       /NoP  Performs no 'regular' operations (good for /MD, /WS, etc.).
+        /NW  Uses the new (Win32) wildcard matching scheme.
+        /ND  Uses the old (DOS) wildcard matching scheme.
+             Note: /ND and /NW are mutually exclusive choices.
+
+      -----  The following switches terminate when a quota is met ----
+
+        /QF  Quits when the quota for the file count has been reached.
+       /QBL  Quits before the byte count exceeds the limit (same as /QB).
+       /QBT  Quits when the total byte count reaches the trigger point.
+       /QSL  Quits before the space dips below the limit (same as /QS).
+       /QST  Quits when the remaining space reaches the trigger point.
+
+      -----  Miscellaneous switches -----
+
+        /NI  Becomes nice to other tasks by idling (1000 msec) between actions.
+     /NI<n>  Same as /NI.  Specifies n msec as the idle time (0 to disable it).
+
+ /CF<fname>  Specifies a Command File which provides text as if it were typed
+             at the position where the switch appeared in the command line.
+             The Command File is a text file which may have multple lines.
+         //  Starts a comment field.  The rest of the line will be ignored.
+         ::  Starts a comment field.  The rest of the line will be ignored.
+
+         /V  Verifies after copy; default (same as /V1).
+        /V1  Verifies after copy (quick test --- file size match).
+        /V2  Verifies after copy byte-by-byte check (DATMAN 2-pass).
+        /V0  Disables verify switch (canceling /V, /V1, or /V2).
+        /ER  Emulates XCOPY's exit code (for ERRORLEVEL check in batch files).
+
+     /CLONE  Duplicates a directory (volume).  This switch is a shortcut for
+             the following combination: /KS/H/E/R/Q/Y/BI/ZY/ZE/oD0.
+
+        /CK  Checks remaining space before copy (default).
+       /CK0  Disables the pre-check of remaining space before copy.
+
+      -----  The following switches control the progress bars -----
+
+        /PB  Shows Progress bar for the job (default file progress >= 1M).
+     /PB<n>  Shows Progress bar for the job and another Progress bar for a
+             single-file progress with file length greater than <n>, which is
+             specified in bytes (or with a suffix, K, M or G) (default: 1M).
+       /PBH  Enables  Progress bar Halt/Abort button (default).
+      /PBH0  Disables Progress bar Halt/Abort button.
+  /PBP<x:y>  Sets the Progress bar position on the Desktop.
+  /PBT<txt>  Displays a user-supplied text as the title of the progress bar.
+    /PBZ<n>  Sets the total job size (in bytes) manually for a 1-pass run.
+
+      -----  The following switches control List output -----
+
+         /L  Same as /LLZ which performs the list operation (no file copy).
+  /L<items>  Customizes the format for List operation (no file copy).
+
+             <items> is a string of one or more of the following letters
+                     which selects the combination and the output order.
+
+                D   file date
+                T   file time
+                H   history (creation, last-write, last-access timestamps)
+                Z   file size in bytes
+                A   file attributes: A(rchive),H(idden),S(system),R(eadonly)
+                S   short name (8.3)
+                N   long name (lastname) without path
+                L   long name with full directory path
+                P   parent path name without the lastname
+                R   long relative (below base directory) name
+                o   owner of the file
+                J   J-thingy object type
+                ,   comma as a separator (for a CSV format output)
+
+             Note: When S and L are both missing, L is used by default.
+
+             Note: The format specified by /FM<items> will be used
+                   for /L output if /L is present without its own parameter.
+
+     /LTREE  Lists directory tree (without copy or making directories).
+
+             Note: with /LTREE, the /DA/DB/DO parameters apply to dir time.
+
+         /F  Displays full source and destination file names while copying.
+ /Fo<fname>  Saves a list of files selected (use /FM to format) into a file.
+       /FM0  Cancels the /FM<items> parameter previously set.
+ /FM<items>  Specifies the output line format for /L and or /Fo output.
+
+             <items> is a string of one or more of the following letters
+                     which selects the combination and the output order.
+
+                D   file date
+                T   file time
+                H   history (creation, last-write, last-access timestamps)
+                Z   file size in bytes
+                A   file attributes: A(rchive),H(idden),S(system),R(eadonly)
+                S   short name (8.3)
+                N   long name (lastname) without path
+                L   long name with full directory path
+                P   parent path name without the lastname
+                R   long relative (below base directory) name
+                o   owner of the file
+                J   J-thingy object type
+
+             Note: When S and L are both missing, L is used by default.
+
+             Note: /L/FM<items> can be combined into a /L<items> switch.
+
+      -----  Miscellaneous switches -----
+
+   /MD<dir>  Makes directory before other actions (even with /L).
+
+             Tip: make a date-encoded directory with a macro reference.
+                  e.g.,  /MDc:\Bkup/$DATE$ (even good for log files).
+
+    /WHICHX  Identifies which program file (XXCOPY.EXE) is being invoked.
+
+      -----  The following switches control Security Information -----
+
+        /SC  Same as /SC7 (copies all security info) when file is copied.
+       /SC0  Cancels the /SC or /SF switch (no security info copied).
+       /SC1  Copies security info (               DACL) when file is copied.
+       /SC2  Copies security info (        SACL       ) when file is copied.
+       /SC3  Copies security info (        SACL + DACL) when file is copied.
+       /SC4  Copies security info (Owner              ) when file is copied.
+       /SC5  Copies security info (Owner        + DACL) when file is copied.
+       /SC6  Copies security info (Owner + SACL       ) when file is copied.
+       /SC7  Copies security info (Owner + SACL + DACL) when file is copied.
+
+        /SF  Same as /SF7 (fixes up all security info) no file copied.
+       /SF0  Cancels the /SC or /SF switch (equivalent to /SC0).
+       /SF1  Fixes up security info (               DACL) (no file copy).
+       /SF2  Fixes up security info (        SACL       ) (no file copy).
+       /SF3  Fixes up security info (        SACL + DACL) (no file copy).
+       /SF4  Fixes up security info (Owner              ) (no file copy).
+       /SF5  Fixes up security info (Owner        + DACL) (no file copy).
+       /SF6  Fixes up security info (Owner + SACL       ) (no file copy).
+       /SF7  Fixes up security info (Owner + SACL + DACL) (no file copy).
+
+      Note:  /SC and /SF work only when src and dst are both NTFS.
+
+    /TESTSC  Enable On-the-fly Test on the /SC7 or /SF7 function.
+
+      -----  The following switches control file sharing -----
+
+       /SHR  Enables file-sharing for read-only with other programs (default).
+       /SHW  Enables file-sharing for write-only with other programs.
+      /SHRW  Enables file-sharing for rd/wr with other programs (same as /SH).
+       /SH0  Disables any sharing (Exclusive file access only).
+
+      -----  The following switches control junctions and symbolic links -----
+
+        /JS  Treats file symbolic links as symblic links (default).
+       /JS0  Treats file symbolic links as regular files.
+
+        /JH  Same as /JH1 (checks file for hard link in WinSxS\) (default).
+       /JH2  Treats file hard links as hard links in any directory.
+       /JH1  Treats file hard links only in WinSxS\ dir as hard links (dflt).
+       /JH0  Treats file hard links always as regular files.
+
+        /JL  Treats directory symbolic links as symblic links (default).
+       /JL0  Treats directory symbolic links as regular directories.
+
+        /JP  Treats junction (non-mount) points as junction pts (default).
+       /JP0  Treats junction (non-mount) points as regular directories.
+
+        /JM  Treats volume mount points as volume mount points(default).
+       /JM0  Treats volume mount points as regular directories.
+
+        /JJ  Shortcut for /JL/JM/JP/JS/JH (default).
+       /JJ0  Shortcut for /JL0/JM0/JP0/JS0/JH0.
+
+        /JR  Shortcut for /JL/JM/JP/JS.
+       /JR0  Shortcut for /JL0/JM0/JP0/JS0.
+
+  /JX<mask>  Excludes the specified J-thingies from normal processing.
+      Note:  The <mask> specifies one or more J-thingies (FSHDLMP).
+       /JX0  Processes all J-thingies without being excluded (default).
+       /JXJ  Same as /JXLMPSH (excludes all J-thingies including HLNK).
+       /JXR  Same as /JXLMPS  (excludes all reparse points (not HLNK)).
+
+  /JI<mask>  Includes the specified J-thingies (inverse switch of /JX).
+      Note:  The <mask> specifies one or more J-thingies (FSHLMP).
+             E.g., /JIM is equivalent to /JXFHLPS (D is not excluded).
+       /JIJ  Same as /JXF  (selects <LNK>,<JCT>,<MNT>,[SYM] and [HLK]).
+       /JIR  Same as /JXFH (selects <LNK>,<JCT>,<MNT> and [SYM]).
+
+        /PJ  Prompts before a different type dst is overwritten (default).
+       /PJ0  Suppresses the warning for trans-overwrite (different type).
+
+        /PR  Prompts on removing a file whose path contains reparse pt (default).
+       /PR0  Does not prompt before removing a filw with reparse point path.
+
+        /WR  Warns if src or dst specifier contains a reparse point (default).
+       /WR0  Suppresses warning for src or dst specifier with a reparse point.
+
+   /JCYCLIC  Scans the src and lists all cyclic links (<LNK><JCN><MNT>).
+
+      -----  The following switches control hard links and symbolic links -----
+
+       /HL0  Cancels the hard link fixup function (/HLE or /HLN) (default).
+       /HLE  Fixes up hard link(s) of the dst file only with existing file(s).
+       /HLN  Copies hard links in src dir to dst with new links as needed.
+
+       /MLH  Makes a hard link file in dst for each file in the src.
+       /ULH  Unlinks hard link files into regular (non hard link) files.
+
+      -----  The following switches control file-write cache -----
+
+        /CA  Enables all cache.  Same as /CA7 (default).
+       /CA0  Cache control:  src-rd = OFF  dst-wr = OFF  dst-rd = OFF
+       /CA1  Cache control:  src-rd = OFF  dst-wr = OFF  dst-rd = ON
+       /CA2  Cache control:  src-rd = OFF  dst-wr = ON   dst-rd = OFF
+       /CA3  Cache control:  src-rd = OFF  dst-wr = ON   dst-rd = ON
+       /CA4  Cache control:  src-rd = ON   dst-wr = OFF  dst-rd = OFF
+       /CA5  Cache control:  src-rd = ON   dst-wr = OFF  dst-rd = ON
+       /CA6  Cache control:  src-rd = ON   dst-wr = ON   dst-rd = OFF
+       /CA7  Cache control:  src-rd = ON   dst-wr = ON   dst-rd = ON
+
+      -----  The following switches control the console output -----
+
+        /EC  Echoes the entire command line (after macro processing).
+        /Q0  Displays all file names.
+         /Q  Same as /Q1.  Does not display files which are skipped.
+        /Q1  Does not display files which are skipped.
+        /Q2  Does not display directories which are excluded.
+        /Q3  Does not display file and directory names while copying.
+     /WI<n>  Sets the output line width to n columns (default:auto).
+        /ZS  Disables the sign-on message and statistics output.
+
+      -----  The following switches control the log output -----
+
+ /oA<fname>  Appends to a logfile, reporting errors. (does not overwrite log).
+ /oN<fname>  Outputs a new logfile, reporting errors (make a new log) file.
+        /oQ  Surrounds pathname output with a pair of quotation marks.
+        /o0  Cancels the /oN or /oA switch specified earlier.
+
+        /oR  Displays the target path of reparse point.
+       /oR0  No display of the target path of reparse point.
+
+          The screen and the log file output can be set by the following:
+
+     /oB<n>  Brief switch (both specified and default) list.
+     /oC<n>  Displays links (<LNK><JCT><MNT>) that are cyclically referenced.
+     /oD<n>  Deleted-file list (by a /Z or /ZY switch).
+     /oE<n>  Error summary with the system error code
+     /oF<n>  File list (files which were successfully operated on).
+     /oH<n>  Displays the list of hard link(s) to the selected file if linked.
+     /oI<n>  Include-item (alternate file template) list.
+     /oP<n>  Parameter (command switch detailed) list.
+     /oS<n>  Skipped-file list (with the reason why skipped).
+     /oX<n>  Exclude-item list.
+
+         The suffix value <n> for /oB/oD/oE/oF/oH/oI/oP/oS/oX works as follows:
+
+             0: No output
+             1: Screen only
+             2: Log file only
+             3: Screen and Log file both
+
+      Note:  It is advised that the log file created by /oA or /oN to be
+             free from the names of successfully copied files that would
+             overshadow relatively infrequent lines of error and warning.
+             Instead, use the /Fo switch to create a separate file for a
+             list of successfully copied files.
+
+        /UT  Encodes output file(s) in UTF-8 text.
+       /UT0  Encodes output file(s) in ANSI text (default).
+
+     /DEBUG  Shows the command parameters and prompts you to start.
+    /DEBUGX  Shows the command parameters and exits.
+      /HELP  Shows the switches in detail (print this output).
+   /HELP /X  Shows Partial Help (switches starting with letter X).
+     /HELPA  Shows the /HELP listing in alphabetical order.
+     /HELPE  Lists the Exit codes (ERRORLEVEL values) returned by XXCOPY.
+         /?  Shows a summary of the switches on one page.
+     ... /?  Shows related switches when entered with other switches.
+
+      Note:  All XXCOPY command switches are case-insensitive.
+             The alphabet, O, is rendered in lowercase (o) in this page to
+             distinguish it from the numeric zero (0).
+
+      Note:  Virtually all of the switches can be disabled by adding 0 (zero)
+             at the end (e.g., /A and /A0).  Due to space limitation and
+
+             their redundant nature, only some of these cases are listed in
+             the help text.
+
+      -----  Predefined macros to embed current date and time ----
+
+    /$xxxx$  Predefined macros for current date and time which may appear
+             anywhere in the command argument and other XXCOPY parameters.
+             Examples below are for the current time, Dec 25, 2002 13:15:30.
+    /$DATE$  Expands to month and date (equivalent to /$MMDD$) --> "1225".
+    /$TIME$  Expands to hour and minutes (equiv. /$HHNN$) --> "1315".
+  /$YYMMDD$  Expands to 2-digit year month day --> "021225".
+ /$YYYY-MM$  Expands to 4-digit year month --> "2002-12".
+  /$HHNNSS$  Expands to hour minutes second --> "131530".
+  /$MON-DD$  Expands to month day --> "DEC-25".
+/$II-IWK-K$  Expands to ISO 8601 year-wkno-dow --> "02-W52-3".
+
+       /TM0  Cancels the time offset set by /TM+ or /TM-.
+    /TM+<n>  Adds an offset to the current time of macro reference.
+    /TM-<n>  Subtracts an offset to the current time of macro reference.
+
+      Note:  The offset value <n> for /TM+ and /TM- is specified in hours
+             unless it is appended with a one-letter suffix (D, H, M, or S
+             which stand for Days, Hours, Minutes, or Seconds respectively).
+
+      -----  Environment Variables in XXCOPY command files ----
+
+    /%xxxx%  Environment variable (E-Var) reference in command files
+             (/CF and /EX).  Like the macro reference counterpart,
+             the string value which correspoinds to an E-Var can be
+             brought in the command line text using the /%xxxx% syntax.
+             Note that this syntax should be used only inside the
+             external file text for XXCOPY (/CF and /EX) which cannot
+             be processed by the OS's command processor.  That is, in
+             the regular command line, the E-Var reference is already
+             supported (without a leading slash as the prefix).
+
+
+      -----  Installation of XXCOPY ----
+
+   /INSTALL  Installs the XXCOPY software package on your computer.
+   /INSTALL:<dir>   Installs XXCOPY in a user-specified directory.
+    /SKIPIC  Skips the creation of XXCOPY Desktop Icon (used with /INSTALL).
+    /SKIPXC  Skips the installation of XXConsole (used with /INSTALL).
+ /UNINSTALL  Uninstalls XXCOPY from your computer.
+   /LICENSE  Displays the XXCOPY license status on your computer.
+     /HOSTS  Displays the names of remote hosts accessed by XXCOPY.
+   /ADDHOST:<id>    Add a new computer name in the host list.
+
+      -----  Environment variables that affect XXCOPY-----
+
+    COPYCMD  Specifies file-overwrite prompting.
+             /Y  suppresses the prompt (always overwrite)
+             /-y prompts you for a Yes/No/All option for a file overwrite
+             (This feature is for the COPY/XCOPY compatibility.)
+     XXCOPY  Specifies XXCOPY's command argument.  This argument string
+             is evaluated first and therefore the user-typed command line
+             can override it.  The syntax is the same as regular argument.
+    XXCOPYX  Specifies a list of exclusion specifiers (xspec).
+             Do not use switch prefix (/X). See the /X switch for details.
+
+        /ZE  Disables the use of all Environment Variables for XXCOPY.
+        /ZX  Disables the use of the Environment Variable XXCOPYX.
+       /ZX0  Enables the XXCOPYX settings.  Good for /CLONE and /RMDIR.
+
+Summary   XXCOPY switches that check two directories:      -------
+                                                          /  src  \
+     Files are classified into four groups;               |    ---+---
+    ---------------------------------------------         | A / B |   \
+     A    files in src which do not exist in dst          |   |   |   |
+     B    files in src which also   exist in dst          \   | C / D |
+     C    files in dst which also   exist in src           ---+---    |
+     D    files in dst which do not exist in src              \  dst  /
+                                                               -------
+ /BB   all files in A       (none in B)                    Venn diagram
+ /BI   all files in A plus  files in B that are different in filetime or size
+ /BA   all files in A plus  files in B that are diff. in filetime, size or attr
+ /BX   all files in A plus  files in B that are different in filetime
+ /BZE  all files in A plus  files in B that are the same size
+ /BZL  all files in A plus  files in B that are larger
+ /BZS  all files in A plus  files in B that are smaller
+ /BZX  all files in A plus  files in B that are different in size
+ /BN   all files in A plus  files in B that have newer filetime
+ /Bo   all files in A plus  files in B that have older filetime
+ /BE   all files in A plus  files in B that have exactly the same time and size
+ /BS       (none in A)      files in B that have exactly the same time and size
+ /U        (none in A)  all files in B (subject to other switches)
+ /U/BI     (none in A)      files in B that are different in filetime or size
+
+ Note:  all the variations in the backup switches (/Bx) include the files in A
+        with the exception of /BS to be consistent with the spirit of BACKUP.
+        As shown in the example (/U/BI), adding /U eliminates the files in A.
+
+ /RS    files in A and/or B that satisfy other specified switches (for remove).
+ /RC    same as /RS (for remove-after-copy).
+ /RD        (none in D)     files in C that would be overwritten (for remove).
+ /RX                    all files in D (for remove).
+
+ Note:  /BS for copy usually accomplishes nothing but is useful as /RS/BS.
+
+     Yahoo! sponsors a group dedicated for the discussion of XXCOPY.
+     It is a forum created for all XXCOPY users where you can browse
+     previous articles, post your own questions, or subscribe to the
+     discussion Email. Product announcements will also be made there.
+
+     Visit  http://groups.yahoo.com/group/xxcopy and become a member.
+
+ Note: This help text is provided mainly as a quick look-up material.
+       Due to the constraints, it cannot be an ideal source to learn
+       this tool.  Visit the XXCOPY web site for better documentation.
+
+     +---------------------------------------------------------------+
+     |  Freeware Version (for personal use or product evaluation)    |
+     |  For routine commercial usage in a corporate environment,     |
+     |  please acquire a Corporate Site License from Pixelab, Inc.   |
+     |                                                               |
+     |  (c)1995-2015 Copyright  Pixelab, Inc.  All rights reserved.  |
+     |  Originally programmed by Kan Yabumoto <yabumoto@xxcopy.com>  |
+     |  For the latest version, go see it at http://www.xxcopy.com   |
+     |  Pixelab, Inc.  http://www.pixelab.com  Fon:+1-630-369-7112   |
+     |  1117 E. Gartner Rd., Suite 119, Naperville, IL 60540 U.S.A.  |
+     +---------------------------------------------------------------+
+
