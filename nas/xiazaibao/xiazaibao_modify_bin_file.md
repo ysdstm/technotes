@@ -1,3 +1,8 @@
+#### refer articles
+
+	`http://bbs.ybty.net/thread-686-1-1.html`
+	`http://www.openwrt.org.cn/bbs/thread-14787-1-1.html`
+
 #### install squashfs-tools
 
 	sudo apt-get install squashfs-tools
