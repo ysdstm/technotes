@@ -1,0 +1,7 @@
+total 12K
+-rw-r--r-- 1 root root 2.6K Oct 21 11:31 librt2860v2.sh
+-rwxr-xr-x 1 root root 1.6K Oct 21 11:31 mt7612.sh
+-rw-r--r-- 1 root root 2.1K Oct 21 11:31 rt2860v2.sh
+squashfs-root/lib/wifi/librt2860v2.sh: POSIX shell script, UTF-8 Unicode text executable
+squashfs-root/lib/wifi/mt7612.sh:      POSIX shell script, UTF-8 Unicode text executable
+squashfs-root/lib/wifi/rt2860v2.sh:    POSIX shell script, UTF-8 Unicode text executable

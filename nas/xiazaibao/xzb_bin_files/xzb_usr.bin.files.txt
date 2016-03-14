@@ -1,0 +1,145 @@
+total 4.5M
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 [ -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 [[ -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 awk -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 basename -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 bunzip2 -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 bzcat -> ../../bin/busybox
+-rwxrwxr-x 1 root root 426K Jan 20 10:12 chkhfs
+-rwxrwxr-x 1 root root 523K Jan 20 10:12 chkntfs
+-rwxrwxr-x 1 root root 824K Jan 20 10:12 chkufsd
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 clear -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 cmp -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 crontab -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 cut -> ../../bin/busybox
+lrwxrwxrwx 1 root root   16 Mar 14 13:58 dbclient -> ../sbin/dropbear
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 dirname -> ../../bin/busybox
+lrwxrwxrwx 1 root root   16 Mar 14 13:58 dropbearkey -> ../sbin/dropbear
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 du -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 env -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 expr -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 find -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 free -> ../../bin/busybox
+-rwxr-xr-x 1 root root 2.9K Jan 20 10:12 gpioctl
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 head -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 hexdump -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 hostid -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 id -> ../../bin/busybox
+-rwxr-xr-x 1 root root  52K Jan 20 10:12 iperf
+-rwxr-xr-x 1 root root  13K Jan 20 10:12 iwinfo
+-rwxr-xr-x 1 root root 7.8K Jan 20 10:12 jshn
+-rwxr-xr-x 1 root root  15K Jan 20 10:12 jsonfilter
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 killall -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 less -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 logger -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 lsof -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 md5sum -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 mkfifo -> ../../bin/busybox
+-rwxrwxr-x 1 root root 322K Jan 20 10:12 mkhfs
+-rwxrwxr-x 1 root root 414K Jan 20 10:12 mkntfs
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 nc -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 nslookup -> ../../bin/busybox
+-rwxr-xr-x 1 root root 499K Jan 20 10:12 openssl
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 passwd -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 pgrep -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 printf -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 readlink -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 renice -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 reset -> ../../bin/busybox
+lrwxrwxrwx 1 root root   16 Mar 14 13:58 scp -> ../sbin/dropbear
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 seq -> ../../bin/busybox
+-rwxr-xr-x 1 root root 4.0K Jan 20 10:12 shellsync
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 sort -> ../../bin/busybox
+lrwxrwxrwx 1 root root   16 Mar 14 13:58 ssh -> ../sbin/dropbear
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 strings -> ../../bin/busybox
+-rwxr--r-- 1 root root 729K Jan 20 10:12 sysdump
+-rwxrwxr-x 1 root root 733K Jan 20 10:12 sysdump_bk
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 tail -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 taskset -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 tee -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 telnet -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 test -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 tftp -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 time -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 top -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 tr -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 traceroute -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 uniq -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 uptime -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 wc -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 wget -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 which -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 xargs -> ../../bin/busybox
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 yes -> ../../bin/busybox
+squashfs-root/usr/bin/[:           symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/[[:          symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/awk:         symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/basename:    symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/bunzip2:     symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/bzcat:       symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/chkhfs:      ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), statically linked, corrupted section header size
+squashfs-root/usr/bin/chkntfs:     ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), statically linked, corrupted section header size
+squashfs-root/usr/bin/chkufsd:     ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), statically linked, corrupted section header size
+squashfs-root/usr/bin/clear:       symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/cmp:         symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/crontab:     symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/cut:         symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/dbclient:    symbolic link to ../sbin/dropbear
+squashfs-root/usr/bin/dirname:     symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/dropbearkey: symbolic link to ../sbin/dropbear
+squashfs-root/usr/bin/du:          symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/env:         symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/expr:        symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/find:        symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/free:        symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/gpioctl:     ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/bin/head:        symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/hexdump:     symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/hostid:      symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/id:          symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/iperf:       ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/bin/iwinfo:      ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/bin/jshn:        ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/bin/jsonfilter:  ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/bin/killall:     symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/less:        symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/logger:      symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/lsof:        symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/md5sum:      symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/mkfifo:      symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/mkhfs:       ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), statically linked, corrupted section header size
+squashfs-root/usr/bin/mkntfs:      ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), statically linked, corrupted section header size
+squashfs-root/usr/bin/nc:          symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/nslookup:    symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/openssl:     ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/bin/passwd:      symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/pgrep:       symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/printf:      symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/readlink:    symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/renice:      symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/reset:       symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/scp:         symbolic link to ../sbin/dropbear
+squashfs-root/usr/bin/seq:         symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/shellsync:   ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/bin/sort:        symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/ssh:         symbolic link to ../sbin/dropbear
+squashfs-root/usr/bin/strings:     symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/sysdump:     ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/bin/sysdump_bk:  ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), statically linked, corrupted section header size
+squashfs-root/usr/bin/tail:        symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/taskset:     symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/tee:         symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/telnet:      symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/test:        symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/tftp:        symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/time:        symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/top:         symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/tr:          symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/traceroute:  symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/uniq:        symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/uptime:      symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/wc:          symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/wget:        symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/which:       symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/xargs:       symbolic link to ../../bin/busybox
+squashfs-root/usr/bin/yes:         symbolic link to ../../bin/busybox

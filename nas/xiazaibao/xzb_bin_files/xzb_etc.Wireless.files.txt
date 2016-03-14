@@ -1,0 +1,5 @@
+total 8.0K
+-rwxr-xr-x 1 root root 1.6K Oct 21 11:31 SingleSKU_2G.dat
+-rwxr-xr-x 1 root root 2.7K Oct 21 11:31 SingleSKU_5G.dat
+squashfs-root/etc/Wireless/SingleSKU_2G.dat: ASCII text, with CRLF line terminators
+squashfs-root/etc/Wireless/SingleSKU_5G.dat: ASCII text, with CRLF line terminators

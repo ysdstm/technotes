@@ -1,0 +1,7 @@
+total 20K
+drwxr-xr-x 2 root root 4.0K Jan 20 10:12 certs
+-rw-r--r-- 1 root root  11K Jan 19 18:20 openssl.cnf
+drwx------ 2 root root 4.0K Jan 20 10:12 private
+squashfs-root/etc/ssl/certs:       directory
+squashfs-root/etc/ssl/openssl.cnf: ASCII text
+squashfs-root/etc/ssl/private:     directory

@@ -1,0 +1,19 @@
+total 52K
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 fsck
+-rw-r--r-- 1 root root 1.4K Oct 21 11:30 leds.sh
+-rw-r--r-- 1 root root 7.0K Oct 21 11:30 network.sh
+-rw-r--r-- 1 root root 1.8K Oct 21 11:30 preinit.sh
+-rw-r--r-- 1 root root 7.9K Jan 20 10:12 procd.sh
+-rw-r--r-- 1 root root 2.7K Oct 21 11:30 service.sh
+-rw-r--r-- 1 root root 2.1K Oct 21 11:30 system.sh
+-rw-r--r-- 1 root root 4.7K Oct 21 11:30 uci-defaults-new.sh
+-rw-r--r-- 1 root root 5.3K Oct 21 11:30 uci-defaults.sh
+squashfs-root/lib/functions/fsck:                directory
+squashfs-root/lib/functions/leds.sh:             POSIX shell script, ASCII text executable
+squashfs-root/lib/functions/network.sh:          ASCII text
+squashfs-root/lib/functions/preinit.sh:          Minix filesystem, V2 (big endian), 29791 zones
+squashfs-root/lib/functions/procd.sh:            ASCII text
+squashfs-root/lib/functions/service.sh:          ASCII text
+squashfs-root/lib/functions/system.sh:           ASCII text
+squashfs-root/lib/functions/uci-defaults-new.sh: a /bin/ash script, ASCII text executable
+squashfs-root/lib/functions/uci-defaults.sh:     POSIX shell script, ASCII text executable

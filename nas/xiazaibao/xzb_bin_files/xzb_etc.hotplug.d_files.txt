@@ -1,0 +1,11 @@
+total 20K
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 block
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 iface
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 net
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 switch
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 wifi
+squashfs-root/etc/hotplug.d/block:  directory
+squashfs-root/etc/hotplug.d/iface:  directory
+squashfs-root/etc/hotplug.d/net:    directory
+squashfs-root/etc/hotplug.d/switch: directory
+squashfs-root/etc/hotplug.d/wifi:   directory

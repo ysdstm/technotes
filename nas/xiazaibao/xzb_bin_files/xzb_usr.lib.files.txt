@@ -1,0 +1,99 @@
+total 4.6M
+drwxr-xr-x 2 root root 4.0K Jan 20 10:12 iptables
+lrwxrwxrwx 1 root root   19 Mar 14 13:58 libattr.so -> libattr.so.1.1.2448
+lrwxrwxrwx 1 root root   19 Mar 14 13:58 libattr.so.1 -> libattr.so.1.1.2448
+-rwxr-xr-x 1 root root  11K Jan 20 10:12 libattr.so.1.1.2448
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 libblkid.so.1 -> libblkid.so.1.1.0
+-rwxr-xr-x 1 root root 220K Jan 20 10:12 libblkid.so.1.1.0
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 libcom_err.so.0 -> libcom_err.so.0.0
+-rwxr-xr-x 1 root root 7.1K Jan 20 10:12 libcom_err.so.0.0
+-rwxr-xr-x 1 root root 4.1K Jan 20 10:12 libcrc32.so
+-rw-r--r-- 1 root root 1.4M Jan 20 10:12 libcrypto.so.1.0.0
+lrwxrwxrwx 1 root root   13 Mar 14 13:58 libe2p.so.2 -> libe2p.so.2.3
+-rwxr-xr-x 1 root root  22K Jan 20 10:12 libe2p.so.2.3
+lrwxrwxrwx 1 root root   16 Mar 14 13:58 libext2fs.so.2 -> libext2fs.so.2.4
+-rwxr-xr-x 1 root root 231K Jan 20 10:12 libext2fs.so.2.4
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 libiconv.so -> libiconv.so.2.4.0
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 libiconv.so.2 -> libiconv.so.2.4.0
+-rw-r--r-- 1 root root 896K Jan 20 10:12 libiconv.so.2.4.0
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 libip4tc.so -> libip4tc.so.0.1.0
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 libip4tc.so.0 -> libip4tc.so.0.1.0
+-rwxr-xr-x 1 root root  21K Jan 20 10:12 libip4tc.so.0.1.0
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 libip6tc.so -> libip6tc.so.0.1.0
+lrwxrwxrwx 1 root root   17 Mar 14 13:58 libip6tc.so.0 -> libip6tc.so.0.1.0
+-rwxr-xr-x 1 root root  22K Jan 20 10:12 libip6tc.so.0.1.0
+-rwxr-xr-x 1 root root  39K Jan 20 10:12 libiwinfo.so
+lrwxrwxrwx 1 root root   18 Mar 14 13:58 libjson-c.so.2 -> libjson-c.so.2.0.1
+-rwxr-xr-x 1 root root  30K Jan 20 10:12 libjson-c.so.2.0.1
+-rw-r--r-- 1 root root 172K Jan 20 10:12 liblua.so.5.1.5
+lrwxrwxrwx 1 root root   21 Mar 14 13:58 libnfnetlink.so.0 -> libnfnetlink.so.0.2.0
+-rwxr-xr-x 1 root root  20K Jan 20 10:12 libnfnetlink.so.0.2.0
+-rwxr-xr-x 1 root root  29K Jan 20 10:12 libnl-tiny.so
+lrwxrwxrwx 1 root root   16 Mar 14 13:58 libpopt.so.0 -> libpopt.so.0.0.0
+-rwxr-xr-x 1 root root  26K Jan 20 10:12 libpopt.so.0.0.0
+-rw-r--r-- 1 root root 338K Jan 20 10:12 libssl.so.1.0.0
+lrwxrwxrwx 1 root root   19 Mar 14 13:58 libstdc++.so.6 -> libstdc++.so.6.0.19
+-rwxr-xr-x 1 root root 838K Jan 20 10:12 libstdc++.so.6.0.19
+-rw-r--r-- 1 root root 2.5K Oct 21 11:59 libstdc++.so.6.0.19-gdb.py
+-rwxr-xr-x 1 root root 191K Jan 20 10:12 libuClibc++-0.2.4.so
+lrwxrwxrwx 1 root root   20 Mar 14 13:58 libuClibc++.so.0 -> libuClibc++-0.2.4.so
+lrwxrwxrwx 1 root root   16 Mar 14 13:58 libuuid.so.1 -> libuuid.so.1.3.0
+-rwxr-xr-x 1 root root  11K Jan 20 10:12 libuuid.so.1.3.0
+lrwxrwxrwx 1 root root   20 Mar 14 13:58 libxtables.so -> libxtables.so.10.0.0
+lrwxrwxrwx 1 root root   20 Mar 14 13:58 libxtables.so.10 -> libxtables.so.10.0.0
+-rwxr-xr-x 1 root root  38K Jan 20 10:12 libxtables.so.10.0.0
+lrwxrwxrwx 1 root root   13 Mar 14 13:58 libz.so -> libz.so.1.2.8
+lrwxrwxrwx 1 root root   13 Mar 14 13:58 libz.so.1 -> libz.so.1.2.8
+-rwxr-xr-x 1 root root  72K Jan 20 10:12 libz.so.1.2.8
+drwxr-xr-x 3 root root 4.0K Jan 19 18:20 lua
+drwxr-xr-x 4 root root 4.0K Jan 20 10:12 opkg
+drwxr-xr-x 3 root root 4.0K Jan 20 10:12 pppd
+squashfs-root/usr/lib/iptables:                   directory
+squashfs-root/usr/lib/libattr.so:                 symbolic link to libattr.so.1.1.2448
+squashfs-root/usr/lib/libattr.so.1:               symbolic link to libattr.so.1.1.2448
+squashfs-root/usr/lib/libattr.so.1.1.2448:        ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libblkid.so.1:              symbolic link to libblkid.so.1.1.0
+squashfs-root/usr/lib/libblkid.so.1.1.0:          ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libcom_err.so.0:            symbolic link to libcom_err.so.0.0
+squashfs-root/usr/lib/libcom_err.so.0.0:          ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libcrc32.so:                ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libcrypto.so.1.0.0:         ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libe2p.so.2:                symbolic link to libe2p.so.2.3
+squashfs-root/usr/lib/libe2p.so.2.3:              ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libext2fs.so.2:             symbolic link to libext2fs.so.2.4
+squashfs-root/usr/lib/libext2fs.so.2.4:           ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libiconv.so:                symbolic link to libiconv.so.2.4.0
+squashfs-root/usr/lib/libiconv.so.2:              symbolic link to libiconv.so.2.4.0
+squashfs-root/usr/lib/libiconv.so.2.4.0:          ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libip4tc.so:                symbolic link to libip4tc.so.0.1.0
+squashfs-root/usr/lib/libip4tc.so.0:              symbolic link to libip4tc.so.0.1.0
+squashfs-root/usr/lib/libip4tc.so.0.1.0:          ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libip6tc.so:                symbolic link to libip6tc.so.0.1.0
+squashfs-root/usr/lib/libip6tc.so.0:              symbolic link to libip6tc.so.0.1.0
+squashfs-root/usr/lib/libip6tc.so.0.1.0:          ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libiwinfo.so:               ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libjson-c.so.2:             symbolic link to libjson-c.so.2.0.1
+squashfs-root/usr/lib/libjson-c.so.2.0.1:         ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/liblua.so.5.1.5:            ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libnfnetlink.so.0:          symbolic link to libnfnetlink.so.0.2.0
+squashfs-root/usr/lib/libnfnetlink.so.0.2.0:      ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libnl-tiny.so:              ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libpopt.so.0:               symbolic link to libpopt.so.0.0.0
+squashfs-root/usr/lib/libpopt.so.0.0.0:           ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libssl.so.1.0.0:            ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libstdc++.so.6:             symbolic link to libstdc++.so.6.0.19
+squashfs-root/usr/lib/libstdc++.so.6.0.19:        ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libstdc++.so.6.0.19-gdb.py: Python script, ASCII text executable
+squashfs-root/usr/lib/libuClibc++-0.2.4.so:       ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libuClibc++.so.0:           symbolic link to libuClibc++-0.2.4.so
+squashfs-root/usr/lib/libuuid.so.1:               symbolic link to libuuid.so.1.3.0
+squashfs-root/usr/lib/libuuid.so.1.3.0:           ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libxtables.so:              symbolic link to libxtables.so.10.0.0
+squashfs-root/usr/lib/libxtables.so.10:           symbolic link to libxtables.so.10.0.0
+squashfs-root/usr/lib/libxtables.so.10.0.0:       ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/libz.so:                    symbolic link to libz.so.1.2.8
+squashfs-root/usr/lib/libz.so.1:                  symbolic link to libz.so.1.2.8
+squashfs-root/usr/lib/libz.so.1.2.8:              ELF 32-bit LSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, corrupted section header size
+squashfs-root/usr/lib/lua:                        directory
+squashfs-root/usr/lib/opkg:                       directory
+squashfs-root/usr/lib/pppd:                       directory

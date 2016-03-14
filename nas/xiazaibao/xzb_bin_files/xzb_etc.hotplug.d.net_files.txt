@@ -1,0 +1,5 @@
+total 8.0K
+-rwxr-xr-x 1 root root 149 Oct 21 11:31 002-nas-acc
+-rw-r--r-- 1 root root 177 Oct 21 11:30 00-sysctl
+squashfs-root/etc/hotplug.d/net/002-nas-acc: POSIX shell script, ASCII text executable
+squashfs-root/etc/hotplug.d/net/00-sysctl:   POSIX shell script, ASCII text executable

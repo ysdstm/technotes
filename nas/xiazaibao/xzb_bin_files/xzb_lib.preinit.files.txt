@@ -1,0 +1,25 @@
+total 48K
+-rw-r--r-- 1 root root  111 Oct 21 11:30 02_default_set_state
+-rw-r--r-- 1 root root   83 Oct 21 11:31 03_preinit_do_ralink.sh
+-rw-r--r-- 1 root root  352 Oct 21 11:30 10_indicate_failsafe
+-rw-r--r-- 1 root root 1.1K Oct 21 11:30 10_indicate_preinit
+-rw-r--r-- 1 root root  346 Oct 21 11:30 10_sysinfo
+-rw-r--r-- 1 root root 2.4K Oct 21 11:30 30_failsafe_wait
+-rw-r--r-- 1 root root  257 Oct 21 11:30 40_run_failsafe_hook
+-rw-r--r-- 1 root root  254 Oct 21 11:30 50_indicate_regular_preinit
+-rw-r--r-- 1 root root  243 Oct 21 11:30 70_initramfs_test
+-rw-r--r-- 1 root root  316 Oct 21 11:30 80_mount_root
+-rw-r--r-- 1 root root  362 Oct 21 11:30 99_10_failsafe_login
+-rw-r--r-- 1 root root  162 Oct 21 11:30 99_10_run_init
+squashfs-root/lib/preinit/02_default_set_state:        POSIX shell script, ASCII text executable
+squashfs-root/lib/preinit/03_preinit_do_ralink.sh:     POSIX shell script, ASCII text executable
+squashfs-root/lib/preinit/10_indicate_failsafe:        POSIX shell script, ASCII text executable
+squashfs-root/lib/preinit/10_indicate_preinit:         POSIX shell script, ASCII text executable
+squashfs-root/lib/preinit/10_sysinfo:                  ASCII text
+squashfs-root/lib/preinit/30_failsafe_wait:            POSIX shell script, ASCII text executable
+squashfs-root/lib/preinit/40_run_failsafe_hook:        POSIX shell script, ASCII text executable
+squashfs-root/lib/preinit/50_indicate_regular_preinit: POSIX shell script, ASCII text executable
+squashfs-root/lib/preinit/70_initramfs_test:           POSIX shell script, ASCII text executable
+squashfs-root/lib/preinit/80_mount_root:               POSIX shell script, ASCII text executable
+squashfs-root/lib/preinit/99_10_failsafe_login:        POSIX shell script, ASCII text executable
+squashfs-root/lib/preinit/99_10_run_init:              POSIX shell script, ASCII text executable

@@ -1,0 +1,9 @@
+total 12K
+-rw------- 1 root root  41 Jan 20 10:12 chap-secrets
+-rw-r--r-- 1 root root 260 Jan 20 10:12 filter
+-rw-r--r-- 1 root root 175 Jan 20 10:12 options
+lrwxrwxrwx 1 root root  20 Mar 14 13:58 resolv.conf -> /tmp/resolv.conf.ppp
+squashfs-root/etc/ppp/chap-secrets: regular file, no read permission
+squashfs-root/etc/ppp/filter:       ASCII text
+squashfs-root/etc/ppp/options:      UTF-8 Unicode text
+squashfs-root/etc/ppp/resolv.conf:  broken symbolic link to /tmp/resolv.conf.ppp

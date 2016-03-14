@@ -1,0 +1,1 @@
+squashfs-root/etc/hotplug.d/wifi/001-wifi.sh: POSIX shell script, ASCII text executable

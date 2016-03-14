@@ -1,0 +1,5 @@
+total 8.0K
+-rwxr-xr-x 1 root root 458 Jan 20 11:10 dropbear_dss_host_key
+-rwxr-xr-x 1 root root 805 Jan 20 11:10 dropbear_rsa_host_key
+squashfs-root/etc/dropbear/dropbear_dss_host_key: data
+squashfs-root/etc/dropbear/dropbear_rsa_host_key: data

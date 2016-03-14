@@ -1,0 +1,9 @@
+total 16K
+-rwxr-xr-x 1 root root   77 Oct 21 11:30 failsafe
+-rwxr-xr-x 1 root root 1.1K Jan 20 11:10 power
+-rwxr-xr-x 1 root root 1.8K Jan 20 11:10 reset
+-rwxr-xr-x 1 root root  522 Oct 21 11:30 rfkill
+squashfs-root/etc/rc.button/failsafe: POSIX shell script, ASCII text executable
+squashfs-root/etc/rc.button/power:    POSIX shell script, ASCII text executable
+squashfs-root/etc/rc.button/reset:    POSIX shell script, UTF-8 Unicode text executable
+squashfs-root/etc/rc.button/rfkill:   POSIX shell script, ASCII text executable

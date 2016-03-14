@@ -1,0 +1,17 @@
+total 40K
+-rwxrwxr-x 1 root root 2.6K Oct 21 11:30 dhcp.script
+-rw-r--r-- 1 root root 7.8K Jul 21  2015 netifd-proto.sh
+-rw-r--r-- 1 root root 5.6K Jul 21  2015 netifd-wireless.sh
+-rwxr-xr-x 1 root root  238 Jan 20 10:12 ppp-down
+-rwxr-xr-x 1 root root  611 Jan 20 10:12 ppp-up
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 proto
+-rw-r--r-- 1 root root  761 Jul 21  2015 utils.sh
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 wireless
+squashfs-root/lib/netifd/dhcp.script:        POSIX shell script, ASCII text executable
+squashfs-root/lib/netifd/netifd-proto.sh:    ASCII text
+squashfs-root/lib/netifd/netifd-wireless.sh: ASCII text
+squashfs-root/lib/netifd/ppp-down:           POSIX shell script, ASCII text executable
+squashfs-root/lib/netifd/ppp-up:             POSIX shell script, ASCII text executable
+squashfs-root/lib/netifd/proto:              directory
+squashfs-root/lib/netifd/utils.sh:           ASCII text
+squashfs-root/lib/netifd/wireless:           directory

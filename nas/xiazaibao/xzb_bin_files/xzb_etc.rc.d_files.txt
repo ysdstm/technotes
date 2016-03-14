@@ -1,0 +1,51 @@
+total 0
+lrwxrwxrwx 1 root root 13 Mar 14 13:58 K89log -> ../init.d/log
+lrwxrwxrwx 1 root root 17 Mar 14 13:58 K90network -> ../init.d/network
+lrwxrwxrwx 1 root root 14 Mar 14 13:58 K98boot -> ../init.d/boot
+lrwxrwxrwx 1 root root 16 Mar 14 13:58 K99umount -> ../init.d/umount
+lrwxrwxrwx 1 root root 20 Mar 14 13:58 S00sysfixtime -> ../init.d/sysfixtime
+lrwxrwxrwx 1 root root 14 Mar 14 13:58 S10boot -> ../init.d/boot
+lrwxrwxrwx 1 root root 16 Mar 14 13:58 S10system -> ../init.d/system
+lrwxrwxrwx 1 root root 16 Mar 14 13:58 S11sysctl -> ../init.d/sysctl
+lrwxrwxrwx 1 root root 13 Mar 14 13:58 S12log -> ../init.d/log
+lrwxrwxrwx 1 root root 18 Mar 14 13:58 S19firewall -> ../init.d/firewall
+lrwxrwxrwx 1 root root 17 Mar 14 13:58 S20network -> ../init.d/network
+lrwxrwxrwx 1 root root 15 Mar 14 13:58 S40fstab -> ../init.d/fstab
+lrwxrwxrwx 1 root root 17 Mar 14 13:58 S41sysntpd -> ../init.d/sysntpd
+lrwxrwxrwx 1 root root 14 Mar 14 13:58 S50cron -> ../init.d/cron
+lrwxrwxrwx 1 root root 15 Mar 14 13:58 S80samba -> ../init.d/samba
+lrwxrwxrwx 1 root root 14 Mar 14 13:58 S95done -> ../init.d/done
+lrwxrwxrwx 1 root root 13 Mar 14 13:58 S96led -> ../init.d/led
+lrwxrwxrwx 1 root root 19 Mar 14 13:58 S97forceupsh -> ../init.d/forceupsh
+lrwxrwxrwx 1 root root 15 Mar 14 13:58 S98etmsh -> ../init.d/etmsh
+lrwxrwxrwx 1 root root 20 Mar 14 13:58 S98lighttpdsh -> ../init.d/lighttpdsh
+lrwxrwxrwx 1 root root 20 Mar 14 13:58 S98minidlnash -> ../init.d/minidlnash
+lrwxrwxrwx 1 root root 15 Mar 14 13:58 S98mpssh -> ../init.d/mpssh
+lrwxrwxrwx 1 root root 16 Mar 14 13:58 S98racdsh -> ../init.d/racdsh
+lrwxrwxrwx 1 root root 16 Mar 14 13:58 S98xldpsh -> ../init.d/xldpsh
+lrwxrwxrwx 1 root root 16 Mar 14 13:58 S99appmsh -> ../init.d/appmsh
+squashfs-root/etc/rc.d/K89log:        symbolic link to ../init.d/log
+squashfs-root/etc/rc.d/K90network:    symbolic link to ../init.d/network
+squashfs-root/etc/rc.d/K98boot:       symbolic link to ../init.d/boot
+squashfs-root/etc/rc.d/K99umount:     symbolic link to ../init.d/umount
+squashfs-root/etc/rc.d/S00sysfixtime: symbolic link to ../init.d/sysfixtime
+squashfs-root/etc/rc.d/S10boot:       symbolic link to ../init.d/boot
+squashfs-root/etc/rc.d/S10system:     symbolic link to ../init.d/system
+squashfs-root/etc/rc.d/S11sysctl:     symbolic link to ../init.d/sysctl
+squashfs-root/etc/rc.d/S12log:        symbolic link to ../init.d/log
+squashfs-root/etc/rc.d/S19firewall:   symbolic link to ../init.d/firewall
+squashfs-root/etc/rc.d/S20network:    symbolic link to ../init.d/network
+squashfs-root/etc/rc.d/S40fstab:      symbolic link to ../init.d/fstab
+squashfs-root/etc/rc.d/S41sysntpd:    symbolic link to ../init.d/sysntpd
+squashfs-root/etc/rc.d/S50cron:       symbolic link to ../init.d/cron
+squashfs-root/etc/rc.d/S80samba:      symbolic link to ../init.d/samba
+squashfs-root/etc/rc.d/S95done:       symbolic link to ../init.d/done
+squashfs-root/etc/rc.d/S96led:        symbolic link to ../init.d/led
+squashfs-root/etc/rc.d/S97forceupsh:  symbolic link to ../init.d/forceupsh
+squashfs-root/etc/rc.d/S98etmsh:      symbolic link to ../init.d/etmsh
+squashfs-root/etc/rc.d/S98lighttpdsh: symbolic link to ../init.d/lighttpdsh
+squashfs-root/etc/rc.d/S98minidlnash: symbolic link to ../init.d/minidlnash
+squashfs-root/etc/rc.d/S98mpssh:      symbolic link to ../init.d/mpssh
+squashfs-root/etc/rc.d/S98racdsh:     symbolic link to ../init.d/racdsh
+squashfs-root/etc/rc.d/S98xldpsh:     symbolic link to ../init.d/xldpsh
+squashfs-root/etc/rc.d/S99appmsh:     symbolic link to ../init.d/appmsh

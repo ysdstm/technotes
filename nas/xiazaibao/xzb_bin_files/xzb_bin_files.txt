@@ -1,0 +1,166 @@
+total 5.5M
+-rwxr-xr-x 1 root root 7.2K Jan 20 11:10 appmonitor
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 ash -> busybox
+-rwxr-xr-x 1 root root  67K Jan 20 11:10 au
+-rwxr-xr-x 1 root root  265 Oct 21 11:30 board_detect
+-rwxr-xr-x 1 root root 415K Jan 20 10:12 busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 cat -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 chgrp -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 chmod -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 chown -> busybox
+-rwxr-xr-x 1 root root 3.3K Oct 21 11:30 config_generate
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 cp -> busybox
+-rwxr-xr-x 1 root root  717 Oct 21 11:31 cpu-affinity
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 date -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 dd -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 df -> busybox
+-rwxr-xr-x 1 root root  10K Jan 20 11:10 diag.sh
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 dmesg -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 echo -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 egrep -> busybox
+-rwxr-xr-x 1 root root 3.0M Jan 20 11:10 etm
+-rwxr-xr-x 1 root root 3.4K Jan 20 11:10 etm_monitor
+-rwxr-xr-x 1 root root 1.1K Oct 21 11:31 factory_system_load
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 false -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 fgrep -> busybox
+-rwxr-xr-x 1 root root 6.1K Jan 20 11:10 forceupgrade
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 fsync -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 grep -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 gunzip -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 gzip -> busybox
+-rwxr-xr-x 1 root root  12K Jan 20 11:10 hd-idle
+-rwxr-xr-x 1 root root 116K Jan 20 11:10 hdparm
+-rwxr-xr-x 1 root root  15K Jan 20 11:10 hsd
+-rwxr-xr-x 1 root root 1.6K Oct 21 11:30 ipcalc.sh
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 kill -> busybox
+-rwxr-xr-x 1 root root 162K Jan 20 11:10 lighttpd
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 ln -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 lock -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 login -> busybox
+-rwxr-xr-x 1 root root  781 Jan 20 11:10 login.sh
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 ls -> busybox
+-rwxr-xr-x 1 root root  46K Jan 20 10:12 mfc
+-rwxr-xr-x 1 root root 1.3M Jan 20 11:10 minidlna
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 mkdir -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 mknod -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 mktemp -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 mount -> busybox
+-rwxr-xr-x 1 root root  69K Jan 20 11:10 mps
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 mv -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 netmsg -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 netstat -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 nice -> busybox
+-rwxr-xr-x 1 root root 123K Jan 20 10:12 opkg
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 pidof -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 ping -> busybox
+-rwxr-xr-x 1 root root 2.8K Oct 21 11:31 powersave
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 ps -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 pwd -> busybox
+-rwxr-xr-x 1 root root 110K Jan 20 11:10 racd
+-rwxr-xr-x 1 root root  22K Jan 20 11:10 resetboot
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 rm -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 rmdir -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 sed -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 sh -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 sleep -> busybox
+-rwxr-xr-x 1 root root 8.4K Jan 20 11:10 smbconfig
+-rwxr-xr-x 1 root root 1.8K Oct 21 11:31 smp-optimize
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 sync -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 tar -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 touch -> busybox
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 true -> busybox
+-rwxr-xr-x 1 root root 7.7K Jan 20 10:12 ubus
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 umount -> busybox
+-rwxr-xr-x 1 root root 6.2K Jan 20 11:10 umountall
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 uname -> busybox
+-rwxr-xr-x 1 root root 1.7K Jan 20 11:10 upgrade.sh
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 vi -> busybox
+-rwxr-xr-x 1 root root 4.2K Jan 20 11:10 volume_info
+-rwxr-xr-x 1 root root  242 Oct 21 11:31 wifitoggle
+-rwxr-xr-x 1 root root  514 Oct 21 11:31 wps_pbc
+-rwxr-xr-x 1 root root  973 Jan 20 11:10 x9app.sh
+-rwxr-xr-x 1 root root 7.1K Jan 20 11:10 xldp
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 zcat -> busybox
+squashfs-root/bin/: directory
+squashfs-root/bin/appmonitor:          ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+squashfs-root/bin/ash:                 symbolic link to busybox
+squashfs-root/bin/au:                  ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+squashfs-root/bin/board_detect:        POSIX shell script, ASCII text executable
+squashfs-root/bin/busybox:             ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/bin/cat:                 symbolic link to busybox
+squashfs-root/bin/chgrp:               symbolic link to busybox
+squashfs-root/bin/chmod:               symbolic link to busybox
+squashfs-root/bin/chown:               symbolic link to busybox
+squashfs-root/bin/config_generate:     POSIX shell script, ASCII text executable
+squashfs-root/bin/cp:                  symbolic link to busybox
+squashfs-root/bin/cpu-affinity:        POSIX shell script, ASCII text executable
+squashfs-root/bin/date:                symbolic link to busybox
+squashfs-root/bin/dd:                  symbolic link to busybox
+squashfs-root/bin/df:                  symbolic link to busybox
+squashfs-root/bin/diag.sh:             POSIX shell script, ASCII text executable
+squashfs-root/bin/dmesg:               symbolic link to busybox
+squashfs-root/bin/echo:                symbolic link to busybox
+squashfs-root/bin/egrep:               symbolic link to busybox
+squashfs-root/bin/etm:                 ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+squashfs-root/bin/etm_monitor:         POSIX shell script, ASCII text executable
+squashfs-root/bin/factory_system_load: POSIX shell script, ASCII text executable
+squashfs-root/bin/false:               symbolic link to busybox
+squashfs-root/bin/fgrep:               symbolic link to busybox
+squashfs-root/bin/forceupgrade:        ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+squashfs-root/bin/fsync:               symbolic link to busybox
+squashfs-root/bin/grep:                symbolic link to busybox
+squashfs-root/bin/gunzip:              symbolic link to busybox
+squashfs-root/bin/gzip:                symbolic link to busybox
+squashfs-root/bin/hd-idle:             ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+squashfs-root/bin/hdparm:              ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+squashfs-root/bin/hsd:                 ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+squashfs-root/bin/ipcalc.sh:           POSIX shell script, ASCII text executable
+squashfs-root/bin/kill:                symbolic link to busybox
+squashfs-root/bin/lighttpd:            ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+squashfs-root/bin/ln:                  symbolic link to busybox
+squashfs-root/bin/lock:                symbolic link to busybox
+squashfs-root/bin/login:               symbolic link to busybox
+squashfs-root/bin/login.sh:            POSIX shell script, ASCII text executable
+squashfs-root/bin/ls:                  symbolic link to busybox
+squashfs-root/bin/mfc:                 ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/bin/minidlna:            ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+squashfs-root/bin/mkdir:               symbolic link to busybox
+squashfs-root/bin/mknod:               symbolic link to busybox
+squashfs-root/bin/mktemp:              symbolic link to busybox
+squashfs-root/bin/mount:               symbolic link to busybox
+squashfs-root/bin/mps:                 ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+squashfs-root/bin/mv:                  symbolic link to busybox
+squashfs-root/bin/netmsg:              symbolic link to busybox
+squashfs-root/bin/netstat:             symbolic link to busybox
+squashfs-root/bin/nice:                symbolic link to busybox
+squashfs-root/bin/opkg:                ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/bin/pidof:               symbolic link to busybox
+squashfs-root/bin/ping:                symbolic link to busybox
+squashfs-root/bin/powersave:           POSIX shell script, ASCII text executable
+squashfs-root/bin/ps:                  symbolic link to busybox
+squashfs-root/bin/pwd:                 symbolic link to busybox
+squashfs-root/bin/racd:                ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+squashfs-root/bin/resetboot:           ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+squashfs-root/bin/rm:                  symbolic link to busybox
+squashfs-root/bin/rmdir:               symbolic link to busybox
+squashfs-root/bin/sed:                 symbolic link to busybox
+squashfs-root/bin/sh:                  symbolic link to busybox
+squashfs-root/bin/sleep:               symbolic link to busybox
+squashfs-root/bin/smbconfig:           ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+squashfs-root/bin/smp-optimize:        POSIX shell script, ASCII text executable
+squashfs-root/bin/sync:                symbolic link to busybox
+squashfs-root/bin/tar:                 symbolic link to busybox
+squashfs-root/bin/touch:               symbolic link to busybox
+squashfs-root/bin/true:                symbolic link to busybox
+squashfs-root/bin/ubus:                ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/bin/umount:              symbolic link to busybox
+squashfs-root/bin/umountall:           ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+squashfs-root/bin/uname:               symbolic link to busybox
+squashfs-root/bin/upgrade.sh:          POSIX shell script, UTF-8 Unicode text executable
+squashfs-root/bin/vi:                  symbolic link to busybox
+squashfs-root/bin/volume_info:         ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+squashfs-root/bin/wifitoggle:          POSIX shell script, ASCII text executable
+squashfs-root/bin/wps_pbc:             POSIX shell script, UTF-8 Unicode text executable
+squashfs-root/bin/x9app.sh:            POSIX shell script, ASCII text executable
+squashfs-root/bin/xldp:                ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+squashfs-root/bin/zcat:                symbolic link to busybox

@@ -1,0 +1,5 @@
+total 8.0K
+-rw-r--r-- 1 root root   20 Jan 20 10:12 10-mount
+-rw-r--r-- 1 root root 3.9K Jan 20 11:10 20-usb_timecloud_led
+squashfs-root/etc/hotplug.d/block/10-mount:             ASCII text
+squashfs-root/etc/hotplug.d/block/20-usb_timecloud_led: POSIX shell script, ASCII text executable

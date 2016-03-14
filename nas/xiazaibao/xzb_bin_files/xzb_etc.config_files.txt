@@ -1,0 +1,11 @@
+total 20K
+-rw-r--r-- 1 root root  165 Jan 20 10:12 dropbear
+-rw-r--r-- 1 root root 3.8K Jan 20 10:12 firewall
+-rw------- 1 root root  429 Jan 20 10:12 ntpclient
+-rw-r--r-- 1 root root  166 Jan 20 10:12 samba
+-rwxr-xr-x 1 root root  264 Jan 20 11:10 system
+squashfs-root/etc/config/dropbear:  ASCII text
+squashfs-root/etc/config/firewall:  ASCII text
+squashfs-root/etc/config/ntpclient: regular file, no read permission
+squashfs-root/etc/config/samba:     ASCII text
+squashfs-root/etc/config/system:    ASCII text

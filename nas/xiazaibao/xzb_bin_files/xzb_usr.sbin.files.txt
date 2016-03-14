@@ -1,0 +1,123 @@
+total 5.5M
+lrwxrwxrwx 1 root root    17 Mar 14 13:58 addgroup -> ../../bin/busybox
+lrwxrwxrwx 1 root root    17 Mar 14 13:58 adduser -> ../../bin/busybox
+-rwxr-xr-x 1 root root  4.2K Jan 20 10:12 adjtimex
+lrwxrwxrwx 1 root root    17 Mar 14 13:58 arping -> ../../bin/busybox
+-rwxr-xr-x 1 root root   61K Jan 20 10:12 blkid
+lrwxrwxrwx 1 root root    17 Mar 14 13:58 brctl -> ../../bin/busybox
+lrwxrwxrwx 1 root root    17 Mar 14 13:58 chroot -> ../../bin/busybox
+lrwxrwxrwx 1 root root    17 Mar 14 13:58 crond -> ../../bin/busybox
+lrwxrwxrwx 1 root root    17 Mar 14 13:58 delgroup -> ../../bin/busybox
+lrwxrwxrwx 1 root root    17 Mar 14 13:58 deluser -> ../../bin/busybox
+-rwxr-xr-x 1 root root   43K Jan 20 10:12 dosfsck
+-rwxr-xr-x 1 root root  162K Jan 20 10:12 dropbear
+-rwxr-xr-x 1 root root   69K Jan 20 10:12 dumpexfat
+-rwxr-xr-x 1 root root  256K Jan 20 10:12 e2fsck
+-rwxr-xr-x 1 root root   68K Jan 20 10:12 exfatfsck
+-rwxr-xr-x 1 root root   66K Jan 20 10:12 exfatlabel
+-rwxr-xr-x 1 root root  203K Jan 20 10:12 fdisk
+-rwxr-xr-x 1 root root  4.5K Jan 20 10:12 findfs
+lrwxrwxrwx 1 root root     7 Mar 14 13:58 fsck.msdos -> dosfsck
+lrwxrwxrwx 1 root root     7 Mar 14 13:58 fsck.vfat -> dosfsck
+lrwxrwxrwx 1 root root    21 Mar 14 13:58 insmod -> ../../sbin/kmodloader
+lrwxrwxrwx 1 root root    13 Mar 14 13:58 iptables -> xtables-multi
+lrwxrwxrwx 1 root root    13 Mar 14 13:58 iptables-restore -> xtables-multi
+lrwxrwxrwx 1 root root    13 Mar 14 13:58 iptables-save -> xtables-multi
+-rwxr-xr-x 1 root root   47K Jan 20 10:12 iwconfig
+lrwxrwxrwx 1 root root     8 Mar 14 13:58 iwlist -> iwconfig
+lrwxrwxrwx 1 root root     8 Mar 14 13:58 iwpriv -> iwconfig
+lrwxrwxrwx 1 root root    21 Mar 14 13:58 lsmod -> ../../sbin/kmodloader
+-rwxr-xr-x 1 root root  4.2K Jan 20 10:12 maccalc
+-rwxr-xr-x 1 root root  106K Jan 20 10:12 mke2fs
+-rwxr-xr-x 1 root root   78K Jan 20 10:12 mkfs.exfat
+lrwxrwxrwx 1 root root     6 Mar 14 13:58 mkfs.ext2 -> mke2fs
+lrwxrwxrwx 1 root root     6 Mar 14 13:58 mkfs.ext3 -> mke2fs
+lrwxrwxrwx 1 root root     6 Mar 14 13:58 mkfs.ext4 -> mke2fs
+lrwxrwxrwx 1 root root    21 Mar 14 13:58 modinfo -> ../../sbin/kmodloader
+lrwxrwxrwx 1 root root    21 Mar 14 13:58 modprobe -> ../../sbin/kmodloader
+-rwxr-xr-x 1 root root 1008K Jan 20 10:12 nmbd
+-rwxr-xr-x 1 root root   17K Jan 20 10:12 ntpclient
+lrwxrwxrwx 1 root root    17 Mar 14 13:58 ntpd -> ../../bin/busybox
+-rwxr-xr-x 1 root root   11K Jan 20 10:12 pbmsa-utils
+-rwxr-xr-x 1 root root  224K Jan 20 10:12 pppd
+-rwxr-xr-x 1 root root   666 Jan 20 10:12 rate.awk
+lrwxrwxrwx 1 root root    21 Mar 14 13:58 rmmod -> ../../sbin/kmodloader
+-rwxr-xr-x 1 root root  2.8M Jan 20 10:12 smbd
+-rwxr-xr-x 1 root root  7.9K Jan 20 10:12 smbpasswd
+lrwxrwxrwx 1 root root    16 Mar 14 13:58 swapoff -> ../../sbin/block
+lrwxrwxrwx 1 root root    16 Mar 14 13:58 swapon -> ../../sbin/block
+lrwxrwxrwx 1 root root    17 Mar 14 13:58 telnetd -> ../../bin/busybox
+-rwxr-xr-x 1 root root   17K Jan 20 10:12 ubiattach
+-rwxr-xr-x 1 root root   12K Jan 20 10:12 ubiblock
+-rwxr-xr-x 1 root root  4.8K Jan 20 10:12 ubicrc32
+-rwxr-xr-x 1 root root   13K Jan 20 10:12 ubidetach
+-rwxr-xr-x 1 root root   47K Jan 20 10:12 ubiformat
+-rwxr-xr-x 1 root root   19K Jan 20 10:12 ubimkvol
+-rwxr-xr-x 1 root root   21K Jan 20 10:12 ubinfo
+-rwxr-xr-x 1 root root   29K Jan 20 10:12 ubinize
+-rwxr-xr-x 1 root root   14K Jan 20 10:12 ubirename
+-rwxr-xr-x 1 root root   16K Jan 20 10:12 ubirmvol
+-rwxr-xr-x 1 root root   17K Jan 20 10:12 ubirsvol
+-rwxr-xr-x 1 root root   17K Jan 20 10:12 ubiupdatevol
+-rwxr-xr-x 1 root root  115K Jan 20 10:12 xtables-multi
+squashfs-root/usr/sbin/addgroup:         symbolic link to ../../bin/busybox
+squashfs-root/usr/sbin/adduser:          symbolic link to ../../bin/busybox
+squashfs-root/usr/sbin/adjtimex:         ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/arping:           symbolic link to ../../bin/busybox
+squashfs-root/usr/sbin/blkid:            ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/brctl:            symbolic link to ../../bin/busybox
+squashfs-root/usr/sbin/chroot:           symbolic link to ../../bin/busybox
+squashfs-root/usr/sbin/crond:            symbolic link to ../../bin/busybox
+squashfs-root/usr/sbin/delgroup:         symbolic link to ../../bin/busybox
+squashfs-root/usr/sbin/deluser:          symbolic link to ../../bin/busybox
+squashfs-root/usr/sbin/dosfsck:          ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/dropbear:         ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/dumpexfat:        ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/e2fsck:           ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/exfatfsck:        ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/exfatlabel:       ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/fdisk:            ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/findfs:           ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/fsck.msdos:       symbolic link to dosfsck
+squashfs-root/usr/sbin/fsck.vfat:        symbolic link to dosfsck
+squashfs-root/usr/sbin/insmod:           symbolic link to ../../sbin/kmodloader
+squashfs-root/usr/sbin/iptables:         symbolic link to xtables-multi
+squashfs-root/usr/sbin/iptables-restore: symbolic link to xtables-multi
+squashfs-root/usr/sbin/iptables-save:    symbolic link to xtables-multi
+squashfs-root/usr/sbin/iwconfig:         ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/iwlist:           symbolic link to iwconfig
+squashfs-root/usr/sbin/iwpriv:           symbolic link to iwconfig
+squashfs-root/usr/sbin/lsmod:            symbolic link to ../../sbin/kmodloader
+squashfs-root/usr/sbin/maccalc:          ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/mke2fs:           ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/mkfs.exfat:       ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/mkfs.ext2:        symbolic link to mke2fs
+squashfs-root/usr/sbin/mkfs.ext3:        symbolic link to mke2fs
+squashfs-root/usr/sbin/mkfs.ext4:        symbolic link to mke2fs
+squashfs-root/usr/sbin/modinfo:          symbolic link to ../../sbin/kmodloader
+squashfs-root/usr/sbin/modprobe:         symbolic link to ../../sbin/kmodloader
+squashfs-root/usr/sbin/nmbd:             ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/ntpclient:        ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/ntpd:             symbolic link to ../../bin/busybox
+squashfs-root/usr/sbin/pbmsa-utils:      ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/pppd:             ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/rate.awk:         ASCII text
+squashfs-root/usr/sbin/rmmod:            symbolic link to ../../sbin/kmodloader
+squashfs-root/usr/sbin/smbd:             ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/smbpasswd:        ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/swapoff:          symbolic link to ../../sbin/block
+squashfs-root/usr/sbin/swapon:           symbolic link to ../../sbin/block
+squashfs-root/usr/sbin/telnetd:          symbolic link to ../../bin/busybox
+squashfs-root/usr/sbin/ubiattach:        ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/ubiblock:         ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/ubicrc32:         ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/ubidetach:        ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/ubiformat:        ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/ubimkvol:         ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/ubinfo:           ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/ubinize:          ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/ubirename:        ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/ubirmvol:         ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/ubirsvol:         ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/ubiupdatevol:     ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size
+squashfs-root/usr/sbin/xtables-multi:    ELF 32-bit LSB executable, MIPS, MIPS32 rel2 version 1, dynamically linked, interpreter /lib/ld-uClibc.so.0, corrupted section header size

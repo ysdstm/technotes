@@ -1,0 +1,7 @@
+total 12K
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 libiwinfo
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 libubox
+drwxrwxr-x 2 root root 4.0K Jan 20 11:10 udhcpc
+squashfs-root/usr/share/libiwinfo: directory
+squashfs-root/usr/share/libubox:   directory
+squashfs-root/usr/share/udhcpc:    directory

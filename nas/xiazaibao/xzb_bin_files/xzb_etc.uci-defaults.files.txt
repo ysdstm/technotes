@@ -1,0 +1,15 @@
+total 36K
+-rw-r--r-- 1 root root   74 Jan 20 10:12 10-fstab
+-rw-r--r-- 1 root root  418 Oct 21 11:30 10_migrate-shadow
+-rw-r--r-- 1 root root  450 Oct 21 11:30 11_migrate-sysctl
+-rw-r--r-- 1 root root  380 Oct 21 11:30 12_network-generate-ula
+-rwxr-xr-x 1 root root 4.1K Oct 21 11:31 leds
+-rwxr-xr-x 1 root root 4.7K Oct 21 11:31 network
+-rwxr-xr-x 1 root root 1.1K Jan 20 10:12 uci_defaults_samba
+squashfs-root/etc/uci-defaults/10-fstab:                ASCII text
+squashfs-root/etc/uci-defaults/10_migrate-shadow:       POSIX shell script, ASCII text executable
+squashfs-root/etc/uci-defaults/11_migrate-sysctl:       POSIX shell script, ASCII text executable
+squashfs-root/etc/uci-defaults/12_network-generate-ula: POSIX shell script, ASCII text executable
+squashfs-root/etc/uci-defaults/leds:                    POSIX shell script, ASCII text executable
+squashfs-root/etc/uci-defaults/network:                 POSIX shell script, UTF-8 Unicode text executable
+squashfs-root/etc/uci-defaults/uci_defaults_samba:      POSIX shell script, UTF-8 Unicode text executable

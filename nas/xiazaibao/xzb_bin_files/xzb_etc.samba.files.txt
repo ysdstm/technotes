@@ -1,0 +1,9 @@
+total 324K
+-rw-r--r-- 1 root root 128K Jan 20 10:12 lowcase.dat
+-rw-r--r-- 1 root root  893 Jan 20 10:12 smb.conf.template
+-rw-r--r-- 1 root root 128K Jan 20 10:12 upcase.dat
+-rw-r--r-- 1 root root  64K Jan 20 10:12 valid.dat
+squashfs-root/etc/samba/lowcase.dat:       MS Windows icon resource - 2 icons, 3x256, 4 colors
+squashfs-root/etc/samba/smb.conf.template: ASCII text
+squashfs-root/etc/samba/upcase.dat:        MS Windows icon resource - 2 icons, 3x256, 4 colors
+squashfs-root/etc/samba/valid.dat:         data

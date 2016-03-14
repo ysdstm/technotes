@@ -1,0 +1,115 @@
+total 208K
+-rw-r--r-- 1 root root   24 Jan 20 11:10 autosdbackup.conf
+-rwxr-xr-x 1 root root 1.5K Jan 20 11:10 autosdbackup.sh
+-rw-r--r-- 1 root root    0 Jan 20 11:10 banner
+-rw-r--r-- 1 root root  408 Oct 21 11:30 banner.failsafe
+-rwxr-xr-x 1 root root  539 Jan 20 11:10 cleansdbackup.sh
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 config
+drwxr-xr-x 2 root root 4.0K Jan 20 10:12 crontabs
+-rw-r--r-- 1 root root   78 Jan 20 10:12 device_info
+-rwxr-xr-x 1 root root 2.6K Oct 21 11:31 diag.sh
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 dropbear
+-rw-r--r-- 1 root root   38 Jan 20 10:12 e2fsck.conf
+-rw-r--r-- 1 root root  352 Jan 20 10:12 firewall.user
+-rwxr-xr-x 1 root root  110 Jan 20 11:10 firmware
+-rwxr-xr-x 1 root root  110 Oct 21 11:31 firmware.bk
+lrwxrwxrwx 1 root root   10 Mar 14 13:58 fstab -> /tmp/fstab
+-rw-r--r-- 1 root root  106 Oct 21 11:31 fw_env.config
+-rw-r--r-- 1 root root  123 Oct 21 11:30 group
+-rw-r--r-- 1 root root   20 Oct 21 11:30 hosts
+drwxr-xr-x 7 root root 4.0K Jan 20 11:10 hotplug.d
+-rw-r--r-- 1 root root 1.7K Jan 20 10:12 hotplug.json
+-rw-r--r-- 1 root root  326 Jan 20 10:12 hotplug-preinit.json
+-rwxr-xr-x 1 root root  460 Jan 20 11:10 hsd.conf
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 init.d
+-rw-r--r-- 1 root root  121 Oct 21 11:31 inittab
+-rwxr-xr-x 1 root root 3.5K Jan 20 11:10 lighttpd.conf
+-rwxr-xr-x 1 root root   59 Jan 20 11:10 log.ini
+-rwxr-xr-x 1 root root 1.1K Jan 20 11:10 minidlna.conf
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 modules-boot.d
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 modules.d
+lrwxrwxrwx 1 root root   12 Mar 14 13:58 mtab -> /proc/mounts
+-rw-r--r-- 1 root root  214 Jan 20 10:12 openwrt_release
+-rw-r--r-- 1 root root    6 Jan 20 10:12 openwrt_version
+-rw-r--r-- 1 root root  649 Jan 20 10:12 opkg.conf
+-rw-r--r-- 1 root root  190 Oct 21 11:30 passwd
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 ppp
+-rwxr-xr-x 1 root root  952 Oct 21 11:30 preinit
+-rw-r--r-- 1 root root  713 Oct 21 11:30 profile
+-rw-r--r-- 1 root root 2.5K Oct 21 11:30 protocols
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 rc.button
+-rwxr-xr-x 1 root root 2.4K Oct 21 11:30 rc.common
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 rc.d
+-rwxr-xr-x 1 root root  814 Jan 20 11:10 rc.local
+lrwxrwxrwx 1 root root   16 Mar 14 13:58 resolv.conf -> /tmp/resolv.conf
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 samba
+-rw-r--r-- 1 root root 3.0K Oct 21 11:30 services
+-rw-r--r-- 1 root root  153 Jan 20 11:10 shadow
+-rw-r--r-- 1 root root    9 Oct 21 11:30 shells
+drwxr-xr-x 4 root root 4.0K Jan 20 11:10 ssl
+-rw-r--r-- 1 root root  955 Jan 19 18:36 sysctl.conf
+-rw-r--r-- 1 root root  128 Oct 21 11:30 sysupgrade.conf
+-rwxr-xr-x 1 root root  599 Jan 20 11:10 thunder_mounts.cfg
+lrwxrwxrwx 1 root root    7 Mar 14 13:58 TZ -> /tmp/TZ
+drwxr-xr-x 2 root root 4.0K Jan 20 10:12 uci-defaults
+-rwxr-xr-x 1 root root   29 Oct 21 11:31 user.conf
+-rwxr-xr-x 1 root root 1.7K Jan 20 11:10 waittime.sh
+drwxr-xr-x 2 root root 4.0K Jan 20 11:10 Wireless
+-rw-r--r-- 1 root root  589 Jan 19 18:18 xattr.conf
+squashfs-root/etc/autosdbackup.conf:    ASCII text
+squashfs-root/etc/autosdbackup.sh:      POSIX shell script, UTF-8 Unicode text executable
+squashfs-root/etc/banner:               empty
+squashfs-root/etc/banner.failsafe:      ASCII text
+squashfs-root/etc/cleansdbackup.sh:     POSIX shell script, ASCII text executable
+squashfs-root/etc/config:               directory
+squashfs-root/etc/crontabs:             directory
+squashfs-root/etc/device_info:          ASCII text
+squashfs-root/etc/diag.sh:              POSIX shell script, UTF-8 Unicode text executable
+squashfs-root/etc/dropbear:             directory
+squashfs-root/etc/e2fsck.conf:          ASCII text
+squashfs-root/etc/firewall.user:        ASCII text
+squashfs-root/etc/firmware:             ASCII text
+squashfs-root/etc/firmware.bk:          ASCII text
+squashfs-root/etc/fstab:                broken symbolic link to /tmp/fstab
+squashfs-root/etc/fw_env.config:        ASCII text
+squashfs-root/etc/group:                ASCII text
+squashfs-root/etc/hosts:                ASCII text
+squashfs-root/etc/hotplug.d:            directory
+squashfs-root/etc/hotplug.json:         ASCII text
+squashfs-root/etc/hotplug-preinit.json: ASCII text
+squashfs-root/etc/hsd.conf:             ASCII text
+squashfs-root/etc/init.d:               directory
+squashfs-root/etc/inittab:              ASCII text
+squashfs-root/etc/lighttpd.conf:        ASCII text
+squashfs-root/etc/log.ini:              ASCII text
+squashfs-root/etc/minidlna.conf:        ASCII text
+squashfs-root/etc/modules-boot.d:       directory
+squashfs-root/etc/modules.d:            directory
+squashfs-root/etc/mtab:                 symbolic link to /proc/mounts
+squashfs-root/etc/openwrt_release:      ASCII text
+squashfs-root/etc/openwrt_version:      ASCII text
+squashfs-root/etc/opkg.conf:            ASCII text
+squashfs-root/etc/passwd:               ASCII text
+squashfs-root/etc/ppp:                  directory
+squashfs-root/etc/preinit:              POSIX shell script, ASCII text executable
+squashfs-root/etc/profile:              POSIX shell script, ASCII text executable
+squashfs-root/etc/protocols:            ASCII text
+squashfs-root/etc/rc.button:            directory
+squashfs-root/etc/rc.common:            POSIX shell script, ASCII text executable
+squashfs-root/etc/rc.d:                 directory
+squashfs-root/etc/rc.local:             ASCII text
+squashfs-root/etc/resolv.conf:          broken symbolic link to /tmp/resolv.conf
+squashfs-root/etc/samba:                directory
+squashfs-root/etc/services:             ASCII text
+squashfs-root/etc/shadow:               ASCII text
+squashfs-root/etc/shells:               ASCII text
+squashfs-root/etc/ssl:                  directory
+squashfs-root/etc/sysctl.conf:          ASCII text
+squashfs-root/etc/sysupgrade.conf:      ASCII text
+squashfs-root/etc/thunder_mounts.cfg:   UTF-8 Unicode text
+squashfs-root/etc/TZ:                   broken symbolic link to /tmp/TZ
+squashfs-root/etc/uci-defaults:         directory
+squashfs-root/etc/user.conf:            ASCII text
+squashfs-root/etc/waittime.sh:          POSIX shell script, UTF-8 Unicode text executable
+squashfs-root/etc/Wireless:             directory
+squashfs-root/etc/xattr.conf:           ASCII text
