@@ -185,3 +185,7 @@ h表示隐藏属性，r为只读，a为存档，s为系统文件属性
 
 /mt:多线程复制，1-128
 /log:使用日志输出，以获得更好的性能
+
+#### 18.只模拟而不执行操作
+
+	robocopy d:\work e:\backup\work /e /log:d:\robolog\backup_work.log /L
