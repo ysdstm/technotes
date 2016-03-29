@@ -22,6 +22,11 @@
 	 0                   12DD09             D7F41E             D80003
 	 0                   1236233            14152734           14155779
 
+	xiazaibao fw-7621-xiazaibao-5.000.182.bin
+	 0                   11DA32             E08330             E40003
+         0                   1169970            14713648           14942211
+	|-----1169970-------|-----13543678-----|------228564------|         
+
 	use windows 10 calc to calc the size:
 	1st part size = Offset2 - Offset1(0) (1236233)
 	2nd part size = Offset3 - Offset2    (14152734-1236233)=12916501
@@ -44,6 +49,9 @@
 	dd if=PandoraBox-ralink-mt7621-timecloud-squashfs-sysupgrade-r1454-20150925.bin bs=1 ibs=1 count=12916501 skip=1236233 of=second.bin
 	dd if=PandoraBox-ralink-mt7621-timecloud-squashfs-sysupgrade-r1454-20150925.bin bs=1 ibs=1 count=3046 skip=14152734 of=third.bin
 
+	dd if=fw-7621-xiazaibao-5.000.182.bin of=first.bin bs=1 ibs=1 count=1169970
+	dd if=fw-7621-xiazaibao-5.000.182.bin of=second.bin bs=1 ibs=1 count=13543678 skip=1169970
+	dd if=fw-7621-xiazaibao-5.000.182.bin of=third.bin bs=1 ibs=1 count=228564 skip=14713648
 #### extract bin file
 
 	sudo unsquashfs second.bin
