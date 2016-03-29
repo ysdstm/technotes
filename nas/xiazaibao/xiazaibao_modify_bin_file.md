@@ -24,7 +24,7 @@
 
 	xiazaibao fw-7621-xiazaibao-5.000.182.bin
 	 0                   11DA32             E08330             E40003
-         0                   1169970            14713648           14942211
+	 0                   1169970            14713648           14942211
 	|-----1169970-------|-----13543678-----|------228564------|         
 
 	use windows 10 calc to calc the size:
@@ -67,3 +67,24 @@
 #### combine bin files
 	
 	cat first.bin new_second.bin third.bin > new_image.bin
+
+###中文简明教程
+
+用WinHex打开bin文件，查找并定位到hsqs的h字符，记录下16进制值，得到值h1，用计算器转换成10进制，得到值d1  
+定位到大片FFFF开头的F，记录下16进制值，得到值h2，转换成d2  
+定位到最后的字符，记录下16进制值，得到h3，转换成d3  
+
+切割文件  
+count是切割后bin文件的大小，skip是跳过的字节数  
+
+```shell
+dd if=image.bin of=1.bin bs=1 ibs=1 count=d1  
+dd if=image.bin of=2.bin bs=1 ibs=1 count=d2-d1 skip=d1  
+dd if=image.bin of=3.bin bs=1 ibs=1 count=d3-d2+1 skip=d2  
+```
+
+也可以用WinHex获取每段的大小，定位到开头，右键->Beginning of block，定位到hsqs之前的一个字符，右键->End of Block，在右下角找到Size，转换成10进制  
+定位到hsqs的h，Begin，得到h1，定位到FFFF前的字符，End，得到第二段大小    
+定位到FFFF的第一个F，Begin，得到h2，定位到最后一个字符，End，得到第三段大小  
+
+
