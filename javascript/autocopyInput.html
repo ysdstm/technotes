@@ -1,0 +1,31 @@
+<!DOCTYPE html charset="utf-8">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<div id="info"></div></br>
+1.<input onmouseover="mOver(this)" onselect="copyText(this)" value="123"></br>
+2.<input onmouseover="mOver(this)" onselect="copyText(this)" value="456"></br>
+
+	<script>
+	function mOver(obj)
+	{
+	obj.focus();
+	obj.select();
+	}
+
+	function copyText(obj)
+	{
+		if(window.clipboardData){
+			window.clipboardData.setData("text",obj.value);
+			document.getElementById("info").innerHTML = "已复制到剪贴板："+obj.value;
+			obj.value="";
+		}else{
+			alert("您的浏览器不支持复制");
+		}	
+	}
+	</script>
+
+</body>
+</html>
