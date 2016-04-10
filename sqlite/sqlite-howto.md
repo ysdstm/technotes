@@ -1,5 +1,3 @@
-关于sqlite不再多说
-
 #### 启动sqlite3  
 
 $ `sqlite3`  

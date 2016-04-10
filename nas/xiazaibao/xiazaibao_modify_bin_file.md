@@ -27,6 +27,11 @@
 	 0                   1169970            14713648           14942211
 	|-----1169970-------|-----13543678-----|------228564------|         
 
+	xiazaibao fw-7621-xiazaibao-5.000.186.bin
+	 0                   11DA55             E23F35             E40003
+	 0                   1170005            14827317           14942211
+	|-----1170005-------|-----13657312-----|------114895------|  
+
 	use windows 10 calc to calc the size:
 	1st part size = Offset2 - Offset1(0) (1236233)
 	2nd part size = Offset3 - Offset2    (14152734-1236233)=12916501
@@ -52,6 +57,11 @@
 	dd if=fw-7621-xiazaibao-5.000.182.bin of=first.bin bs=1 ibs=1 count=1169970
 	dd if=fw-7621-xiazaibao-5.000.182.bin of=second.bin bs=1 ibs=1 count=13543678 skip=1169970
 	dd if=fw-7621-xiazaibao-5.000.182.bin of=third.bin bs=1 ibs=1 count=228564 skip=14713648
+	
+	dd if=fw-7621-xiazaibao-5.000.186.bin of=first.bin bs=1 ibs=1 count=1170005
+	dd if=fw-7621-xiazaibao-5.000.186.bin of=second.bin bs=1 ibs=1 count=13657312 skip=1170005
+	dd if=fw-7621-xiazaibao-5.000.186.bin of=third.bin bs=1 ibs=1 count=114895 skip=14827317
+	
 #### extract bin file
 
 	sudo unsquashfs second.bin
