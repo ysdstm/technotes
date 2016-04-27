@@ -1,93 +1,105 @@
 #### refer articles
 
-	`http://bbs.ybty.net/thread-686-1-1.html`
-	`http://www.openwrt.org.cn/bbs/thread-14787-1-1.html`
+```shell
+http://bbs.ybty.net/thread-686-1-1.html
+http://www.openwrt.org.cn/bbs/thread-14787-1-1.html
+```
 
 #### install squashfs-tools
 
-	sudo apt-get install squashfs-tools
+```shell
+sudo apt-get install squashfs-tools
+```
 
 #### split bin file
 
-	download WinHex on windows, open bin file
-	search "hsqs", click on letter "h", write down the "h" Offset (in WinHex status bar), this is beginning of second part.
-	page down, and locate the chars are "FF FF FF ...", click on the first letter "F" , this is the beginning of third part.
-	beginning of first part is the beginning of the bin file where Offset is 0.
+```shell
+download WinHex on windows, open bin file
+search "hsqs", click on letter "h", write down the "h" Offset (in WinHex status bar), this is beginning of second part.
+page down, and locate the chars are "FF FF FF ...", click on the first letter "F" , this is the beginning of third part.
+beginning of first part is the beginning of the bin file where Offset is 0.
 
-	|                   |                  |                  |
-         0                   hsqs               FF FF
-	 Offset1             Offset2            Offset3            LastOffset
-	
-	 for example:`http://downloads.pandorabox.org.cn/pandorabox/XunLei_TimeCloud/firmware/PandoraBox-ralink-mt7621-timecloud-squashfs-sysupgrade-r1454-20150925.bin`
-	 0                   12DD09             D7F41E             D80003
-	 0                   1236233            14152734           14155779
+|                   |                  |                  |
+ 0                   hsqs               FF FF
+ Offset1             Offset2            Offset3            LastOffset
 
-	xiazaibao fw-7621-xiazaibao-5.000.182.bin
-	 0                   11DA32             E08330             E40003
-	 0                   1169970            14713648           14942211
-	|-----1169970-------|-----13543678-----|------228564------|         
+ for example:`http://downloads.pandorabox.org.cn/pandorabox/XunLei_TimeCloud/firmware/PandoraBox-ralink-mt7621-timecloud-squashfs-sysupgrade-r1454-20150925.bin`
+ 0                   12DD09             D7F41E             D80003
+ 0                   1236233            14152734           14155779
 
-	xiazaibao fw-7621-xiazaibao-5.000.186.bin
-	 0                   11DA55             E23F35             E40003
-	 0                   1170005            14827317           14942211
-	|-----1170005-------|-----13657312-----|------114895------|  
+xiazaibao fw-7621-xiazaibao-5.000.182.bin
+ 0                   11DA32             E08330             E40003
+ 0                   1169970            14713648           14942211
+|-----1169970-------|-----13543678-----|------228564------|         
 
-	xiazaibao fw-7621-xiazaibao-5.000.188.bin
-	 0                   11D9FB             E356D5             E40003
-	 0                   1169915            14898901           14942211
-	|-----1169915-------|-----13728986-----|------43311-------| 
+xiazaibao fw-7621-xiazaibao-5.000.186.bin
+ 0                   11DA55             E23F35             E40003
+ 0                   1170005            14827317           14942211
+|-----1170005-------|-----13657312-----|------114895------|  
 
-	use windows 10 calc to calc the size:
-	1st part size = Offset2 - Offset1(0) (1236233)
-	2nd part size = Offset3 - Offset2    (14152734-1236233)=12916501
-	3rd part size = LastOffset - Offset3 + 1 (verify with WinHex) (14155779-14152734) + 1 = 3046
+xiazaibao fw-7621-xiazaibao-5.000.188.bin
+ 0                   11D9FB             E356D5             E40003
+ 0                   1169915            14898901           14942211
+|-----1169915-------|-----13728986-----|------43311-------| 
 
-	or use below method:
+use windows 10 calc to calc the size:
+1st part size = Offset2 - Offset1(0) (1236233)
+2nd part size = Offset3 - Offset2    (14152734-1236233)=12916501
+3rd part size = LastOffset - Offset3 + 1 (verify with WinHex) (14155779-14152734) + 1 = 3046
 
-	locate beginning of bin file in WinHex, Right Click the very first char, and select Beginning of block,
-	and then locate the char before "hsqs", Right Click the very first char, and select End of Block,
-	will find the block size in the lower right corner of WinHex.
-	repeat the above steps, find the second part size ("hsqs" to the char before "FF FF ..."), and the third part size (all "FF FF ...")
+or use below method:
+
+locate beginning of bin file in WinHex, Right Click the very first char, and select Beginning of block,
+and then locate the char before "hsqs", Right Click the very first char, and select End of Block,
+will find the block size in the lower right corner of WinHex.
+repeat the above steps, find the second part size ("hsqs" to the char before "FF FF ..."), and the third part size (all "FF FF ...")
  
-	convert Hex to DEC and split bin file:
+convert Hex to DEC and split bin file:
 
-	dd if=image.bin of=first.bin bs=1 ibs=1 count=first-part-size
-	dd if=image.bin of=second.bin bs=1 ibs=1 count=second-part-size skip=first-part-size or second Offset
-	dd if=image.bin of=third.bin bs=1 ibs=1 count=third-part-size skip=third Offset
+dd if=image.bin of=first.bin bs=1 ibs=1 count=first-part-size
+dd if=image.bin of=second.bin bs=1 ibs=1 count=second-part-size skip=first-part-size or second Offset
+dd if=image.bin of=third.bin bs=1 ibs=1 count=third-part-size skip=third Offset
 
-	dd if=PandoraBox-ralink-mt7621-timecloud-squashfs-sysupgrade-r1454-20150925.bin bs=1 ibs=1 count=1236233 of=first.bin
-	dd if=PandoraBox-ralink-mt7621-timecloud-squashfs-sysupgrade-r1454-20150925.bin bs=1 ibs=1 count=12916501 skip=1236233 of=second.bin
-	dd if=PandoraBox-ralink-mt7621-timecloud-squashfs-sysupgrade-r1454-20150925.bin bs=1 ibs=1 count=3046 skip=14152734 of=third.bin
+dd if=PandoraBox-ralink-mt7621-timecloud-squashfs-sysupgrade-r1454-20150925.bin bs=1 ibs=1 count=1236233 of=first.bin
+dd if=PandoraBox-ralink-mt7621-timecloud-squashfs-sysupgrade-r1454-20150925.bin bs=1 ibs=1 count=12916501 skip=1236233 of=second.bin
+dd if=PandoraBox-ralink-mt7621-timecloud-squashfs-sysupgrade-r1454-20150925.bin bs=1 ibs=1 count=3046 skip=14152734 of=third.bin
 
-	dd if=fw-7621-xiazaibao-5.000.182.bin of=first.bin bs=1 ibs=1 count=1169970
-	dd if=fw-7621-xiazaibao-5.000.182.bin of=second.bin bs=1 ibs=1 count=13543678 skip=1169970
-	dd if=fw-7621-xiazaibao-5.000.182.bin of=third.bin bs=1 ibs=1 count=228564 skip=14713648
-	
-	dd if=fw-7621-xiazaibao-5.000.186.bin of=first.bin bs=1 ibs=1 count=1170005
-	dd if=fw-7621-xiazaibao-5.000.186.bin of=second.bin bs=1 ibs=1 count=13657312 skip=1170005
-	dd if=fw-7621-xiazaibao-5.000.186.bin of=third.bin bs=1 ibs=1 count=114895 skip=14827317
-	
-	dd if=fw-7621-xiazaibao-5.000.188.bin of=first.bin bs=1 ibs=1 count=1169915
-	dd if=fw-7621-xiazaibao-5.000.188.bin of=second.bin bs=1 ibs=1 count=13728986 skip=1169915
-	dd if=fw-7621-xiazaibao-5.000.188.bin of=third.bin bs=1 ibs=1 count=43311 skip=14898901
-	
+dd if=fw-7621-xiazaibao-5.000.182.bin of=first.bin bs=1 ibs=1 count=1169970
+dd if=fw-7621-xiazaibao-5.000.182.bin of=second.bin bs=1 ibs=1 count=13543678 skip=1169970
+dd if=fw-7621-xiazaibao-5.000.182.bin of=third.bin bs=1 ibs=1 count=228564 skip=14713648
+
+dd if=fw-7621-xiazaibao-5.000.186.bin of=first.bin bs=1 ibs=1 count=1170005
+dd if=fw-7621-xiazaibao-5.000.186.bin of=second.bin bs=1 ibs=1 count=13657312 skip=1170005
+dd if=fw-7621-xiazaibao-5.000.186.bin of=third.bin bs=1 ibs=1 count=114895 skip=14827317
+
+dd if=fw-7621-xiazaibao-5.000.188.bin of=first.bin bs=1 ibs=1 count=1169915
+dd if=fw-7621-xiazaibao-5.000.188.bin of=second.bin bs=1 ibs=1 count=13728986 skip=1169915
+dd if=fw-7621-xiazaibao-5.000.188.bin of=third.bin bs=1 ibs=1 count=43311 skip=14898901
+```
+
 #### extract bin file
 
-	sudo unsquashfs second.bin
-	second bin will be extract to squashfs-root/
+```shell
+sudo unsquashfs second.bin
+second bin will be extract to squashfs-root/
+```
 
 #### modify files in squashfs-root
 
 #### compress squashfs-root to bin file
 
 
-	sudo mksquashfs squashfs-root/ new_second.bin -nopad -noappend -root-owned -comp xz -b 256k
+```shell
+sudo mksquashfs squashfs-root/ new_second.bin -nopad -noappend -root-owned -comp xz -b 256k
+```
 
 #### combine bin files
-	
-	cat first.bin new_second.bin third.bin > new_image.bin
 
-###中文简明教程
+```shell
+cat first.bin new_second.bin third.bin > new_image.bin
+```
+
+### 中文简明教程
 
 用WinHex打开bin文件，查找并定位到hsqs的h字符，记录下16进制值，得到值h1，用计算器转换成10进制，得到值d1  
 定位到大片FFFF开头的F，记录下16进制值，得到值h2，转换成d2  
