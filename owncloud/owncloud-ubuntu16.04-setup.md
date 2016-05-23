@@ -344,13 +344,40 @@ The versions are adjusted along this pattern every time a new version gets creat
 The version app never uses more that 50% of the user’s currently available free space. If the stored versions exceed this limit, ownCloud deletes the oldest versions until it meets the disk space limit again.
 ```
 
-##### 4.使用ubuntu16.04安装owncloud的问题
+##### 4.启用Memcache
 
-ubuntu16.04默认安装了php7.0，但owncloud建议通过安装memcache以提升性能，[手册](https://doc.owncloud.org/server/9.0/admin_manual/configuration_server/caching_configuration.html)中提供了几种方案，但还都不支持php7.0，所以暂时无法设置了。
+参见[官方手册](https://doc.owncloud.org/server/9.0/admin_manual/configuration_server/caching_configuration.html#id4)，在第一次配置时，以为16.06上的PHP7.0无法支持，后来又尝试了一下，可以安装。
 
-以下是Admin面板中提示
+```shell
+apt-get install redis-server
+apt-get install php-redis
+#检查redis-server是否已运行
+ps ax | grep redis
+#检查一下php7.0的redis模块是否启用
+cd /etc/php/7.0/mods-available/
+cat redis.ini
+#检查是否有以下行
+extension=redis.so
+#执行以下命令，或者查看phpinfo()
+php --ri redis
 
-> No memory cache has been configured. To enhance your performance please configure a memcache if available. Further information can be found in our[documentation](https://doc.owncloud.org/server/9.0/go.php?to=admin-performance).
+redis
 
-[官方手册](https://doc.owncloud.org/server/9.0/admin_manual/installation/source_installation.html#example-installation-on-ubuntu-14-04-lts-server)中的安装示例中使用的是Ubuntu14.04，只能[下载](http://releases.ubuntu.com/trusty/)个镜像再试试了，虚拟机上也是很快就能装好了，如果配置都没有问题了，还要把生产环境中已经测试了一天的备份内容转移到Ubuntu14.04上。
+Redis Support => enabled
+Redis Version => 2.2.8-devphp7
+#重启apache2
+service apache2 restart
+#配置owncloud目录下的config.php
+nano config.php
+#添加以下内容，并启用文件缓存锁定
+  'memcache.local' => '\OC\Memcache\Redis',
+  'filelocking.enabled' => 'true',
+  'memcache.locking' => '\OC\Memcache\Redis',
+  'redis' => array(
+        'host' => 'localhost',
+        'port' => 6379,
+        ),
+```
+
+配置完成后，登录owncloud，进入Admin页面检查是否有错误。
 
