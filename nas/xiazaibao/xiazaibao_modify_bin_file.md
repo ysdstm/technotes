@@ -47,6 +47,11 @@ xiazaibao fw-7621-xiazaibao-5.000.190.bin
  0                   1169971            15210825           15466499
 |-----1169971-------|-----14040854-----|------255675------|
 
+xiazaibao fw-7621-xiazaibao-5.000.192.bin
+ 0                   11DB32             E83364             EC0003
+ 0                   1170226            15217508           15466499
+|-----1170226-------|-----14047282-----|------248992------|
+
 use windows 10 calc to calc the size:
 1st part size = Offset2 - Offset1(0) (1236233)
 2nd part size = Offset3 - Offset2    (14152734-1236233)=12916501
@@ -84,6 +89,14 @@ dd if=fw-7621-xiazaibao-5.000.188.bin of=third.bin bs=1 ibs=1 count=43311 skip=1
 dd if=fw-7621-xiazaibao-5.000.190.bin of=first.bin bs=1 ibs=1 count=1169971
 dd if=fw-7621-xiazaibao-5.000.190.bin of=second.bin bs=1 ibs=1 count=14040854 skip=1169971
 dd if=fw-7621-xiazaibao-5.000.190.bin of=third.bin bs=1 ibs=1 count=255675 skip=15210825
+
+dd if=fw-7621-xiazaibao-5.000.192.bin of=first.bin bs=1 ibs=1 count=1170226
+dd if=fw-7621-xiazaibao-5.000.192.bin of=second.bin bs=1 ibs=1 count=14047282 skip=1170226
+dd if=fw-7621-xiazaibao-5.000.192.bin of=third.bin bs=1 ibs=1 count=248992 skip=15217508
+
+dd if=fw-7621-xiazaibao-5.000.192.160610.bin of=first.bin bs=1 ibs=1 count=1170226
+dd if=fw-7621-xiazaibao-5.000.192.160610.bin of=second.bin bs=1 ibs=1 count=14616444 skip=1170226
+dd if=fw-7621-xiazaibao-5.000.192.160610.bin of=third.bin bs=1 ibs=1 count=204118 skip=15786670
 ```
 
 #### extract bin file

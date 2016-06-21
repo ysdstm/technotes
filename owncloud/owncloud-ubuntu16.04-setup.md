@@ -79,8 +79,11 @@ sudo cp php.ini php.ini.bak
 sudo nano php.ini
 #Ctrl+W查找，修改为以下内容，这里设置为可以上传最大为4G大小
 upload_max_filesize = 4096M
+max_file_uploads = 50
 post_max_size = 4096M
-
+max_execution_time = 3600
+max_input_time = 3600
+memory_limit = 512M
 #修改后执行
 sudo service apache2 reload
 ```
@@ -347,6 +350,8 @@ The version app never uses more that 50% of the user’s currently available fre
 ##### 4.启用Memcache
 
 参见[官方手册](https://doc.owncloud.org/server/9.0/admin_manual/configuration_server/caching_configuration.html#id4)，在第一次配置时，以为16.06上的PHP7.0无法支持，后来又尝试了一下，可以安装。
+
+[参考](https://gist.github.com/hollodotme/418e9b7c6ebc358e7fda)这个文章，文章中说php7.0的redis扩展已经可以通过`apt-get install php-redis`安装
 
 ```shell
 apt-get install redis-server
