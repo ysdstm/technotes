@@ -850,6 +850,7 @@ tar \[选项][文件]
 > 打包并压缩文件:“tar -czvf 压缩包名.tar.gz 文件名”
 
 
+
 > 解压并展开压缩包:“tar -xzvf 压缩包名.tar.gz”
 
 | 参数   | 作用          |
@@ -923,7 +924,50 @@ find / -perm -4000 -print
 find / -user linuxprobe -exec cp -arf {} /root/findresults/ \;
 ```
 
+#### 第3章 管道符 重定向与环境变量
 
+##### 3.1 管道命令符
 
+管道命令符“**|**”的作用是将前一个命令的标准输出当作是后一个命令的标准输入，格式为“命令A**|**命令B”。
 
+将下面这两条命令进行结合：
+
+> 找出被限制登陆用户的命令是:**grep "/sbin/nologin" /etc/passwd**
+>
+> 统计文本行数的命令则是:**wc -l**
+
+```shell
+grep "/sbin/nologin" /etc/passwd | wc -l
+#用翻页的形式查看/etc目录中有那些文件：
+ls -l /etc/ | more
+#向linuxprobe用户发送一封邮件：
+echo "Content" | mail -s "Subject" linuxprobe
+#检查邮件
+su - linuxprobex
+mail
+#使用非交互式设置用户密码，将root的密码修改为linuxprobe。
+echo "linuxprobe" | passwd --stdin root
+```
+
+##### 3.2 输入与输出重定向
+
+要想通过Linux命令让数据的处理更加的高效，就特别有必要搞明白输入和输出重定向的原理，简单描述即“使用输入重定向能够将文件导入到命令中，而输出重定向则是能够将原本要输出到屏幕的信息写入到指定文件中”。
+
+重定向分为标准输出重定向和错误输出重定向：
+
+```shell
+ls ~
+ls xxx/
+ls: xxx: No such file or directory
+```
+
+刚刚我们先查看了~目录内的文件，后又尝试查看名为"xxx"目录内的文件，显示该目录并不存在。虽然好像命令都执行成功了，但其实有所差异，前者执行后返回的是标准输出，而后者执行失败返回的是错误输出。
+
+> 标准输入(STDIN，文件描述符为0)：默认从键盘输入，为0时表示是从其他文件或命令的输出。
+>
+> 标准输出(STDOUT，文件描述符为1)：默认输出到屏幕，为1时表示是文件。
+>
+> 错误输出(STDERR，文件描述符为2)：默认输出到屏幕，为2时表示是文件。
+
+[here](http://www.linuxprobe.com/chapter-03.html#32)
 
